@@ -43,6 +43,10 @@ def send_email_via_brevo(
                 sender_name = possible_name.strip('"\' ')
             clean_sender_email = parts[1].split(">")[0].strip()
             
+        # Fix potential typos (like double @@)
+        if "@@" in clean_sender_email:
+            clean_sender_email = clean_sender_email.replace("@@", "@")
+            
         logger.info(f"Parsed sender for Brevo: name='{sender_name}', email='{clean_sender_email}'")
         
         # Build subject
