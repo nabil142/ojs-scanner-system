@@ -5,9 +5,12 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY backend ./backend
+RUN pip install --no-cache-dir semgrep
 
-ENV OJS_SOURCE_PATH=/ojs
+COPY backend ./backend
+COPY ojs ./ojs
+
+ENV OJS_SOURCE_PATH=/app/ojs/ojs-main
 ENV ENABLE_SCHEDULER=true
 ENV SCAN_INTERVAL_HOURS=6
 EXPOSE 8000
