@@ -33,6 +33,18 @@ def send_email_via_brevo(
     try:
         logger.info(f"Sending email via Brevo HTTPS API to {recipient_email}")
         
+        # Parse sender name and clean email
+        clean_sender_email = sender_email.strip()
+        sender_name = "OJS Scanner"
+        if "<" in sender_email and ">" in sender_email:
+            parts = sender_email.split("<")
+            possible_name = parts[0].strip()
+            if possible_name:
+                sender_name = possible_name.strip('"\' ')
+            clean_sender_email = parts[1].split(">")[0].strip()
+            
+        logger.info(f"Parsed sender for Brevo: name='{sender_name}', email='{clean_sender_email}'")
+        
         # Build subject
         scan_type = "SCHEDULED" if is_scheduled else "MANUAL"
         subject = f"[{scan_type}] [C:{critical_count}][H:{high_count}][M:{medium_count}][L:{low_count}] OJS Security Report #{scan_id}"
@@ -76,7 +88,7 @@ def send_email_via_brevo(
         }
         
         payload = {
-            "sender": {"name": "OJS Scanner", "email": sender_email},
+            "sender": {"name": sender_name, "email": clean_sender_email},
             "to": [{"email": recipient_email}],
             "subject": subject,
             "htmlContent": html_body,
