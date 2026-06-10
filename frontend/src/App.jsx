@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { LayoutDashboard, ShieldAlert, History, Mail, LogOut, Shield } from 'lucide-react';
+import { LayoutDashboard, ShieldAlert, History, Mail, LogOut, Shield, Menu, X } from 'lucide-react';
 import Login from './components/Login';
 import DashboardOverview from './components/DashboardOverview';
 import ScanTarget from './components/ScanTarget';
@@ -10,6 +10,7 @@ export default function App() {
   const [token, setToken] = useState(null);
   const [username, setUsername] = useState('');
   const [activeTab, setActiveTab] = useState('overview');
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   useEffect(() => {
     // Check if token exists in localStorage on mount
@@ -32,6 +33,7 @@ export default function App() {
     localStorage.removeItem('username');
     setToken(null);
     setUsername('');
+    setIsSidebarOpen(false);
   };
 
   // If not logged in, show Login Screen
@@ -49,10 +51,51 @@ export default function App() {
 
   return (
     <div className="app-container">
+      {/* Mobile Header */}
+      <header className="mobile-header">
+        <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+          <div style={{
+            padding: '6px',
+            backgroundColor: 'var(--color-accent)',
+            borderRadius: '6px',
+            color: 'white',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center'
+          }}>
+            <Shield size={18} />
+          </div>
+          <span style={{ fontWeight: '700', fontSize: '16px', color: 'white', letterSpacing: '0.5px' }}>OJS SAST Scan</span>
+        </div>
+        <button 
+          onClick={() => setIsSidebarOpen(!isSidebarOpen)}
+          style={{
+            background: 'none',
+            border: 'none',
+            color: 'var(--text-primary)',
+            cursor: 'pointer',
+            padding: '4px',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center'
+          }}
+        >
+          {isSidebarOpen ? <X size={24} /> : <Menu size={24} />}
+        </button>
+      </header>
+
+      {/* Sidebar Overlay */}
+      {isSidebarOpen && (
+        <div 
+          className="sidebar-overlay" 
+          onClick={() => setIsSidebarOpen(false)}
+        />
+      )}
+
       {/* Sidebar */}
-      <aside className="sidebar">
+      <aside className={`sidebar ${isSidebarOpen ? 'open' : ''}`}>
         {/* App Logo */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '32px', padding: '0 8px' }}>
+        <div className="sidebar-logo" style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '32px', padding: '0 8px' }}>
           <div style={{
             padding: '8px',
             backgroundColor: 'var(--color-accent)',
@@ -87,7 +130,10 @@ export default function App() {
             return (
               <button
                 key={item.id}
-                onClick={() => setActiveTab(item.id)}
+                onClick={() => {
+                  setActiveTab(item.id);
+                  setIsSidebarOpen(false);
+                }}
                 style={{
                   display: 'flex',
                   alignItems: 'center',
