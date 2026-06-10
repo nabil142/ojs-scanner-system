@@ -132,6 +132,7 @@ def send_report_email(
     """
 
     resend_api_key = os.environ.get("RESEND_API_KEY")
+    logger.info(f"RESEND_API_KEY detection: {'FOUND' if resend_api_key else 'NOT FOUND'}")
     if resend_api_key:
         return send_email_via_resend(
             api_key=resend_api_key,
