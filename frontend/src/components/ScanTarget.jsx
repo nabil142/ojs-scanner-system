@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Search, ShieldAlert, ShieldCheck, Download, ExternalLink, Loader2 } from 'lucide-react';
+import { API_URL } from '../config';
 
 export default function ScanTarget() {
   const [sourcePath, setSourcePath] = useState('');
@@ -14,7 +15,7 @@ export default function ScanTarget() {
     setScanResult(null);
 
     try {
-      const res = await fetch('http://127.0.0.1:8000/scan/', {
+      const res = await fetch(`${API_URL}/scan/`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -152,7 +153,7 @@ export default function ScanTarget() {
               {scanResult.history_id && (
                 <>
                   <a 
-                    href={`http://127.0.0.1:8000/scan/report/${scanResult.history_id}`} 
+                    href={`${API_URL}/scan/report/${scanResult.history_id}`} 
                     target="_blank" 
                     rel="noreferrer" 
                     className="btn btn-secondary"
@@ -161,7 +162,7 @@ export default function ScanTarget() {
                     <Download size={14} /> Download PDF Report
                   </a>
                   <a 
-                    href={`http://127.0.0.1:8000/reports/${scanResult.history_id}/html`} 
+                    href={`${API_URL}/reports/${scanResult.history_id}/html`} 
                     target="_blank" 
                     rel="noreferrer" 
                     className="btn btn-primary"

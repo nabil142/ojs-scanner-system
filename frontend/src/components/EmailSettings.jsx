@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Mail, Check, AlertTriangle, RefreshCw, Save } from 'lucide-react';
+import { API_URL } from '../config';
 
 export default function EmailSettings({ token }) {
   const [email, setEmail] = useState('');
@@ -13,7 +14,7 @@ export default function EmailSettings({ token }) {
     setLoading(true);
     setError('');
     try {
-      const res = await fetch(`http://127.0.0.1:8000/auth/email-settings?token=${token}`);
+      const res = await fetch(`${API_URL}/auth/email-settings?token=${token}`);
       const data = await res.json();
       
       if (res.ok) {
@@ -43,7 +44,7 @@ export default function EmailSettings({ token }) {
     setSuccess('');
 
     try {
-      const res = await fetch(`http://127.0.0.1:8000/auth/email-settings?token=${token}`, {
+      const res = await fetch(`${API_URL}/auth/email-settings?token=${token}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

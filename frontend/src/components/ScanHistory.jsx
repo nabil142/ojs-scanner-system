@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { FileText, Download, ExternalLink, Calendar, ChevronDown, ChevronUp, RefreshCw, AlertCircle } from 'lucide-react';
+import { API_URL } from '../config';
 
 export default function ScanHistory() {
   const [reports, setReports] = useState([]);
@@ -13,7 +14,7 @@ export default function ScanHistory() {
     setLoading(true);
     setError('');
     try {
-      const res = await fetch('http://127.0.0.1:8000/reports/list');
+      const res = await fetch(`${API_URL}/reports/list`);
       const data = await res.json();
       if (data.status === 'success') {
         setReports(data.reports || []);
@@ -44,7 +45,7 @@ export default function ScanHistory() {
     if (!detailsCache[id]) {
       setDetailsLoading(prev => ({ ...prev, [id]: true }));
       try {
-        const res = await fetch(`http://127.0.0.1:8000/reports/${id}/info`);
+        const res = await fetch(`${API_URL}/reports/${id}/info`);
         const data = await res.json();
         setDetailsCache(prev => ({ ...prev, [id]: data }));
       } catch (err) {
@@ -147,7 +148,7 @@ export default function ScanHistory() {
                         <td onClick={(e) => e.stopPropagation()}>
                           <div style={{ display: 'flex', gap: '8px' }}>
                             <a 
-                              href={`http://127.0.0.1:8000/scan/report/${report.id}`} 
+                              href={`${API_URL}/scan/report/${report.id}`} 
                               target="_blank" 
                               rel="noreferrer" 
                               className="btn btn-secondary"
@@ -158,7 +159,7 @@ export default function ScanHistory() {
                             </a>
                             {report.html_report_available && (
                               <a 
-                                href={`http://127.0.0.1:8000/reports/${report.id}/html`} 
+                                href={`${API_URL}/reports/${report.id}/html`} 
                                 target="_blank" 
                                 rel="noreferrer" 
                                 className="btn btn-primary"

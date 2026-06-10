@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Shield, Clock, AlertTriangle, FileText, CheckCircle2, RefreshCw } from 'lucide-react';
+import { API_URL } from '../config';
 
 export default function DashboardOverview() {
   const [schedulerStatus, setSchedulerStatus] = useState(null);
@@ -26,17 +27,17 @@ export default function DashboardOverview() {
     setError('');
     try {
       // 1. Fetch scheduler status
-      const schedulerRes = await fetch('http://127.0.0.1:8000/scheduler/status');
+      const schedulerRes = await fetch(`${API_URL}/scheduler/status`);
       const schedulerData = await schedulerRes.json();
       setSchedulerStatus(schedulerData);
 
       // 2. Fetch reports summary
-      const reportsRes = await fetch('http://127.0.0.1:8000/reports/list');
+      const reportsRes = await fetch(`${API_URL}/reports/list`);
       const reportsData = await reportsRes.json();
       setReportSummary(reportsData);
 
       // 3. Fetch target info
-      const targetRes = await fetch('http://127.0.0.1:8000/scan/target-info');
+      const targetRes = await fetch(`${API_URL}/scan/target-info`);
       if (targetRes.ok) {
         const targetData = await targetRes.json();
         setTargetInfo(targetData);

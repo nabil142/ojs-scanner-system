@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Lock, User, AlertCircle, CheckCircle } from 'lucide-react';
+import { API_URL } from '../config';
 
 export default function Login({ onLoginSuccess }) {
   const [isRegister, setIsRegister] = useState(false);
@@ -22,7 +23,7 @@ export default function Login({ onLoginSuccess }) {
     setLoading(true);
     const endpoint = isRegister ? 'register' : 'login';
     // Gunakan query parameters sesuai dengan spesifikasi backend FastAPI
-    const url = `http://127.0.0.1:8000/auth/${endpoint}?username=${encodeURIComponent(username)}&password=${encodeURIComponent(password)}`;
+    const url = `${API_URL}/auth/${endpoint}?username=${encodeURIComponent(username)}&password=${encodeURIComponent(password)}`;
 
     try {
       const res = await fetch(url, {
