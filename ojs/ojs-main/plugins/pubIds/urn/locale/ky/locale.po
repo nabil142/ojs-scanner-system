@@ -1,0 +1,244 @@
+# Mahmut  VURAL <mahmut.vural@outlook.com>, 2024, 2026.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-01-26 14:55+0000\n"
+"Last-Translator: Mahmut  VURAL <mahmut.vural@outlook.com>\n"
+"Language-Team: Kyrgyz <http://translate.pkp.sfu.ca/projects/ojs/pubIds-urn/"
+"ky/>\n"
+"Language: ky\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.18.2\n"
+
+msgid "plugins.pubIds.urn.displayName"
+msgstr "URN"
+
+msgid "plugins.pubIds.urn.description"
+msgstr ""
+"Бул плагин OJS ичиндеги чыгарылыштарга, макалаларга жана галлейлерге "
+"бирдиктүү ресурстук аттарды (URN) дайындоого мүмкүндүк берет."
+
+msgid "plugins.pubIds.urn.manager.settings.description"
+msgstr ""
+"OJS ичинде URN’дерди башкаруу жана колдонуу үчүн URN плагинин "
+"конфигурациялаңыз:"
+
+msgid "plugins.pubIds.urn.manager.settings.urnObjects"
+msgstr "Журнал мазмуну"
+
+msgid "plugins.pubIds.urn.manager.settings.urnObjectsRequired"
+msgstr "URN дайындалуучу объекттерди тандаңыз."
+
+msgid "plugins.pubIds.urn.manager.settings.explainURNs"
+msgstr "Бирдиктүү ресурстук ат (URN) дайындалуучу басылма объекттерди тандаңыз:"
+
+msgid "plugins.pubIds.urn.manager.settings.enableIssueURN"
+msgstr "Чыгарылыштар"
+
+msgid "plugins.pubIds.urn.manager.settings.enablePublicationURN"
+msgstr "Макалалар"
+
+msgid "plugins.pubIds.urn.manager.settings.enableRepresentationURN"
+msgstr "Галлейлер"
+
+msgid "plugins.pubIds.urn.manager.settings.urnPrefix"
+msgstr "URN префикси"
+
+msgid "plugins.pubIds.urn.manager.settings.urnPrefix.description"
+msgstr ""
+"URN префикси — URN’дин өзгөрбөс, туруктуу бөлүгү (мисалы: \"urn:nbn:de:0000-"
+"\")."
+
+msgid "plugins.pubIds.urn.manager.settings.urnSuffix"
+msgstr "URN суффикси"
+
+msgid "plugins.pubIds.urn.manager.settings.urnSuffixPattern.example"
+msgstr ""
+"Мисалы, vol%viss%ipp%p үлгүсү \"vol3iss2pp230\" URN суффиксин түзүшү мүмкүн."
+
+msgid "plugins.pubIds.urn.manager.settings.urnSuffixPattern.issues"
+msgstr "чыгарылыштар үчүн"
+
+msgid "plugins.pubIds.urn.manager.settings.urnSuffixPattern.submissions"
+msgstr "макалалар үчүн"
+
+msgid "plugins.pubIds.urn.manager.settings.urnSuffixPattern.representations"
+msgstr "галлейлер үчүн"
+
+msgid "plugins.pubIds.urn.manager.settings.urnIssueSuffixPatternRequired"
+msgstr "Чыгарылыштар үчүн URN суффикс үлгүсүн киргизиңиз."
+
+msgid "plugins.pubIds.urn.manager.settings.urnPublicationSuffixPatternRequired"
+msgstr "Макалалар үчүн URN суффикс үлгүсүн киргизиңиз."
+
+msgid "plugins.pubIds.urn.manager.settings.urnRepresentationSuffixPatternRequired"
+msgstr "Галлейлер үчүн URN суффикс үлгүсүн киргизиңиз."
+
+msgid "plugins.pubIds.urn.manager.settings.urnSuffixDefault"
+msgstr "Демейки үлгүлөрдү колдонуу."
+
+msgid "plugins.pubIds.urn.manager.settings.urnSuffixDefault.description"
+msgstr ""
+"%j.v%vi%i — чыгарылыштар үчүн<br />%j.v%vi%i.%a — макалалар үчүн<br /"
+">%j.v%vi%i.%a.g%g — галлейлер үчүн."
+
+msgid "plugins.pubIds.urn.manager.settings.urnSuffixCustomIdentifier"
+msgstr ""
+"Ар бир жарыяланган элемент үчүн өзүнчө URN суффикс киргизиңиз. Ар бир "
+"элементтин метадата бетинде кошумча URN талаасын таба аласыз."
+
+msgid "plugins.pubIds.urn.manager.settings.checkNo"
+msgstr "Текшерүү номери"
+
+msgid "plugins.pubIds.urn.manager.settings.checkNo.label"
+msgstr ""
+"Текшерүү номери автоматтык түрдө эсептелип, URN’дин акыркы цифрасы катары "
+"кошулат."
+
+msgid "plugins.pubIds.urn.manager.settings.namespace"
+msgstr "Namespace"
+
+msgid "plugins.pubIds.urn.manager.settings.namespace.choose"
+msgstr "Тандаңыз"
+
+msgid "plugins.pubIds.urn.manager.settings.namespace.description"
+msgstr ""
+"Туруктуу идентификатор namespace адатта каттоо үчүн талап кылынат (мисалы, "
+"Deutsche Nationalbibliothek)."
+
+msgid "plugins.pubIds.urn.manager.settings.urnResolver"
+msgstr "Чечүүчү URL"
+
+msgid "plugins.pubIds.urn.manager.settings.urnResolver.description"
+msgstr "(мисалы: https://nbn-resolving.de/)"
+
+msgid "plugins.pubIds.urn.manager.settings.form.urnResolverRequired"
+msgstr "Чечүүчү URL киргизиңиз."
+
+msgid "plugins.pubIds.urn.manager.settings.urnReassign"
+msgstr "URN’дерди кайра дайындоо"
+
+msgid "plugins.pubIds.urn.manager.settings.urnReassign.confirm"
+msgstr "Бардык учурдагы URN’дерди өчүрүүнү каалап жатканыңызга ишенесизби?"
+
+msgid "plugins.pubIds.urn.editor.urn"
+msgstr "URN"
+
+msgid "plugins.pubIds.urn.editor.urnObjectTypeIssue"
+msgstr "чыгарылыш"
+
+msgid "plugins.pubIds.urn.editor.urnObjectTypeSubmission"
+msgstr "макала"
+
+msgid "plugins.pubIds.urn.editor.urnObjectTypeRepresentation"
+msgstr "галлей"
+
+msgid "plugins.pubIds.urn.editor.customSuffixMissing"
+msgstr "URN дайындала албайт, анткени ыңгайлаштырылган суффикс жок."
+
+msgid "plugins.pubIds.urn.editor.patternNotResolved"
+msgstr "URN дайындала албайт, анткени чечилбеген үлгү камтылган."
+
+msgid "plugins.pubIds.urn.editor.canBeAssigned"
+msgstr ""
+"Бул URN алдын ала көрүү. URN дайындоо үчүн белгини тандап, форманы сактаңыз."
+
+msgid "plugins.pubIds.urn.editor.assigned"
+msgstr "URN бул {$pubObjectType} үчүн дайындалды."
+
+msgid "plugins.pubIds.urn.editor.urnSuffixCustomIdentifierNotUnique"
+msgstr ""
+"Берилген URN суффикси башка жарыяланган элемент үчүн колдонулуп жатат. Ар "
+"бир элемент үчүн уникалдуу URN суффикс киргизиңиз."
+
+msgid "plugins.pubIds.urn.editor.clearObjectsURN"
+msgstr "Тазалоо"
+
+msgid "plugins.pubIds.urn.editor.clearObjectsURN.confirm"
+msgstr "Учурдагы URN’ди өчүрүүнү каалап жатканыңызга ишенесизби?"
+
+msgid "plugins.pubIds.urn.editor.clearIssueObjectsURN"
+msgstr "Чыгарылыш объекттеринин URN’дерин тазалоо"
+
+msgid "plugins.pubIds.urn.editor.clearIssueObjectsURN.confirm"
+msgstr ""
+"Учурдагы чыгарылыш объекттеринин URN’дерин өчүрүүнү каалап жатканыңызга "
+"ишенесизби?"
+
+msgid "plugins.pubIds.urn.editor.clearIssueObjectsURN.description"
+msgstr ""
+"Бул чыгарылышка дайындалган бардык объекттердин (макалалар жана галлейлер) "
+"URN’дерин тазалоо үчүн төмөнкү параметрди колдонуңуз."
+
+msgid "plugins.pubIds.urn.editor.addCheckNo"
+msgstr "Текшерүү номерин кошуу"
+
+msgid "plugins.pubIds.urn.editor.assignURN"
+msgstr "URN {$pubId} бул {$pubObjectType} үчүн дайындалсын"
+
+msgid "plugins.pubIds.urn.editor.assignURN.pattern"
+msgstr "URN {$pubId} дайындала албайт, анткени чечилбеген үлгү камтылган."
+
+msgid "plugins.pubIds.urn.editor.assignURN.assigned"
+msgstr "URN {$pubId} дайындалды."
+
+msgid "plugins.pubIds.urn.form.checkNoRequired"
+msgstr "Текшерүү номери жок."
+
+msgid "plugins.pubIds.urn.editor.urn.description"
+msgstr "URN {$prefix} менен башталышы керек."
+
+msgid "plugins.pubIds.urn.editor.urn.assignUrn"
+msgstr "Дайында"
+
+msgid "plugins.pubIds.urn.editor.missingPrefix"
+msgstr "URN {$urnPrefix} менен башталышы керек."
+
+msgid "plugins.pubIds.urn.editor.preview.publication"
+msgstr "Бул басылма үчүн URN {$urn} болот."
+
+msgid "plugins.pubIds.urn.editor.preview.publication.none"
+msgstr "Бул басылмага URN дайындала элек."
+
+msgid "plugins.pubIds.urn.editor.preview.galleys"
+msgstr "Галлей: {$galleyLabel}"
+
+msgid "plugins.pubIds.urn.editor.preview.objects"
+msgstr "Элемент"
+
+msgid "plugins.pubIds.urn.manager.settings.form.urnPrefixPattern"
+msgstr ""
+"URN префикс үлгүсү \"urn:\"&lt;NID&gt;\":\"&lt;NSS&gt; түрүндө болушу керек."
+
+msgid "plugins.pubIds.urn.manager.settings.urnSuffix.description"
+msgstr ""
+"URN суффикси каалаган формада болушу мүмкүн, бирок ошол эле URN префикси "
+"дайындалган бардык басылма объекттер арасында уникалдуу болушу керек:"
+
+msgid "plugins.pubIds.urn.manager.settings.urnSuffixPattern"
+msgstr ""
+"URN суффикстерди түзүү үчүн төмөндө киргизилген үлгүнү колдонуңуз. %j — "
+"журналдын баш тамгалары, %v — том номери, %i — чыгарылыш номери, %Y — жыл, "
+"%a — OJS макала ID, %g — OJS галлей ID, %f — OJS файл ID, %p — бет номери, "
+"%x — \"Ыңгайлаштырылган идентификатор\"."
+
+msgid "plugins.pubIds.urn.manager.settings.urnReassign.description"
+msgstr ""
+"Эгер сиз URN конфигурациясын өзгөртсөңүз, мурунтан дайындалган URN’дерге "
+"таасир этпейт. URN конфигурациясы сакталгандан кийин, бардык учурдагы URN’"
+"дерди тазалоо үчүн бул баскычты колдонуңуз, ошондо жаңы орнотуулар учурдагы "
+"объекттерге колдонулат."
+
+msgid "plugins.pubIds.urn.editor.assignURN.emptySuffix"
+msgstr "URN дайындала албайт, анткени ыңгайлаштырылган суффикс жок."
+
+msgid "plugins.pubIds.urn.editor.missingIssue"
+msgstr "Бул басылма чыгарылышка дайындалмайынча URN түзүлбөйт."
+
+msgid "plugins.pubIds.urn.editor.missingParts"
+msgstr ""
+"URN түзүлбөйт, анткени URN үлгүсүнүн бир же бир нече бөлүгүндө маалымат жок. "
+"Басылманы чыгарылышка дайындоо, басып чыгаруучу ID коюу же бет номерлерин "
+"киргизүү керек болушу мүмкүн."

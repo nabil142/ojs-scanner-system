@@ -1,0 +1,155 @@
+/**
+ * Dialog Component - Theme Styles
+ */
+
+/* --- Structural (required for component to function) --- */
+.PkpDialog__overlay {
+	position: fixed;
+	inset: 0;
+	z-index: 30;
+}
+
+.PkpDialog__positionContainer {
+	position: fixed;
+	inset: 0;
+	z-index: 40;
+	overflow-y: auto;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	padding: 1rem;
+	pointer-events: none;
+}
+
+@media (min-width: 640px) {
+	.PkpDialog__positionContainer {
+		align-items: center;
+		padding: 0;
+	}
+}
+
+.PkpDialog__content {
+	position: relative;
+	z-index: 100;
+	width: 100%;
+	max-height: calc(100vh - 2rem);
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	pointer-events: auto;
+}
+
+@media (min-width: 640px) {
+	.PkpDialog__content {
+		max-height: 85vh;
+		margin: 2rem 0;
+	}
+}
+
+.PkpDialog__content--default {
+	max-width: 28rem;
+}
+
+.PkpDialog__content--large {
+	max-width: 50rem;
+}
+
+.PkpDialog__body {
+	flex: 1;
+	overflow-y: auto;
+	min-height: 0;
+}
+
+.PkpDialog__content:focus {
+	outline: none;
+}
+
+.PkpDialog__actionButtons {
+	flex-shrink: 0;
+	display: flex;
+}
+
+.PkpDialog__close {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* --- Visual (customize these) --- */
+.PkpDialog__overlay {
+	background-color: fade(#000000, 60%);
+}
+
+.PkpDialog__overlay[data-state='open'] {
+	animation: overlayShow 550ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Title */
+h2.PkpDialog__title {
+	margin: 0;
+}
+
+/* Body spacing */
+.PkpDialog__body {
+	margin-top: @base;
+}
+
+/* Content panel visual styling */
+.PkpDialog__content {
+	background-color: @bg;
+	border-radius: @radius;
+	padding: @double;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.PkpDialog__content[data-state='open'] {
+	animation: contentShow 550ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Close button */
+.PkpDialog__close {
+	top: @base;
+	right: @base;
+	background: transparent;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	color: #666;
+
+	svg {
+		width: 1.25rem;
+		height: 1.25rem;
+	}
+
+	&:hover {
+		color: #333;
+	}
+}
+
+/* Action buttons */
+.PkpDialog__actionButtons {
+	margin-top: @triple;
+	gap: @base;
+}
+
+/* Animations */
+@keyframes overlayShow {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes contentShow {
+	from {
+		opacity: 0;
+		transform: scale(0.96) translateY(10px);
+	}
+	to {
+		opacity: 1;
+		transform: scale(1) translateY(0);
+	}
+}

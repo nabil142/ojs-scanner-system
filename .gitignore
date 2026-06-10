@@ -1,0 +1,24 @@
+# Local environment secrets
+.env
+
+# SQLite local database
+ojs_scanner.db
+
+# Generated scan reports
+reports/
+scan-output/
+
+# Nuclei binary
+nuclei.exe
+
+# Python cache files
+**/__pycache__/
+*.pyc
+
+# Local node_modules and builds
+node_modules/
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db

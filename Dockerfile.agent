@@ -1,0 +1,14 @@
+FROM python:3.12-slim
+
+WORKDIR /app
+
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY backend ./backend
+
+ENV OJS_SOURCE_PATH=/ojs
+ENV SCANNER_OUTPUT_PATH=/scan-output/latest.json
+ENV SCANNER_INTERVAL_SECONDS=300
+
+CMD ["python", "-m", "backend.agent"]

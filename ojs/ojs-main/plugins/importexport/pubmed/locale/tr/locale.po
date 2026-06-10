@@ -1,0 +1,65 @@
+# Hüseyin Körpeoğlu <yoruyenturk@hotmail.com>, 2025.
+# Mahmut  VURAL <mahmut.vural@outlook.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T11:05:46+00:00\n"
+"PO-Revision-Date: 2026-01-26 14:16+0000\n"
+"Last-Translator: Mahmut  VURAL <mahmut.vural@outlook.com>\n"
+"Language-Team: Turkish <http://translate.pkp.sfu.ca/projects/ojs/"
+"importexport-pubmed/tr/>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.18.2\n"
+
+msgid "plugins.importexport.pubmed.displayName"
+msgstr "PubMed XML İhraç Eklentisi"
+
+msgid "plugins.importexport.pubmed.description"
+msgstr ""
+"MEDLINE'da dizinlenmesi için makale üst verilerini PubMed XML biçiminde ihra "
+"eder."
+
+msgid "plugins.importexport.pubmed.export"
+msgstr "Veri İhracı"
+
+msgid "plugins.importexport.pubmed.export.issues"
+msgstr "Sayıları İhraç Et"
+
+msgid "plugins.importexport.pubmed.export.selectIssue"
+msgstr "İhraç için bir sayı seçiniz."
+
+msgid "plugins.importexport.pubmed.export.articles"
+msgstr "Makaleleri İhraç Et"
+
+msgid "plugins.importexport.pubmed.export.selectArticle"
+msgstr "İhraç için bir makale seçiniz."
+
+msgid "plugins.importexport.pubmed.cliUsage"
+msgstr ""
+"Kullanım: \n"
+"{$scriptName} {$pluginName} [xmlDosyaAdı] [dergi_yolu] makaleler [makaleId1] "
+"[makaleId2] ...\n"
+"{$scriptName} {$pluginName} [xmlDosyaAdı] [dergi_yolu] sayı [sayıId]\n"
+
+msgid "plugins.importexport.pubmed.cliError"
+msgstr "HATA:"
+
+msgid "plugins.importexport.pubmed.export.error.issueNotFound"
+msgstr "\"{$issueId}\" özel sayı ID'si ile herhangi bir sayı eşlenmedi."
+
+msgid "plugins.importexport.pubmed.export.error.articleNotFound"
+msgstr ""
+"\"{$articleId}\" özel makale numarası ile herhangi bir makale eşlenmedi."
+
+msgid "plugins.importexport.pubmed.settings.form.nlmTitle"
+msgstr "NLM Başlık Kısaltması"
+
+msgid "plugins.importexport.pubmed.settings.form.nlmTitle.description"
+msgstr ""
+"Derginin NLM Başlık Kısaltması. Kısaltmayı bilmiyorsanız,  <a href=\"https"
+"://www.ncbi.nlm.nih.gov/nlmcatalog/\">NLM Kataloğunda arama yapın</a>."

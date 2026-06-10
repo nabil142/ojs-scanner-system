@@ -1,0 +1,109 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-08-23 20:19+0000\n"
+"Last-Translator: Antti-Jussi Nygård <ajnyga@gmail.com>\n"
+"Language-Team: Finnish <http://translate.pkp.sfu.ca/projects/plugins/"
+"datacite/fi/>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.18.2\n"
+
+msgid "plugins.importexport.datacite.displayName"
+msgstr "DataCite-vientilisäosa"
+
+msgid "plugins.importexport.datacite.description"
+msgstr ""
+"Vie tai rekisteröi numeroita, artikkeleita, julkaistuja tiedostoja sekä "
+"liitetiedostoja DataCite-palvelun XML.muodossa ja rekisteröi DOI-tunnuksia "
+"DataCite-rekisteröintipalvelussa."
+
+msgid "plugins.importexport.datacite.settings.description"
+msgstr "Määritä DataCite-lisäosa ennen sen käyttämistä."
+
+msgid "plugins.importexport.datacite.settings.label"
+msgstr "DataCite-asetukset"
+
+msgid "plugins.importexport.datacite.registrationAgency.name"
+msgstr "DataCite"
+
+#, fuzzy
+msgid "plugins.importexport.datacite.intro"
+msgstr ""
+"\n"
+"\t\tMikäli haluat luoda DOI-tunnuksia DataCite-palvelun kautta, ota ensin "
+"yhteyttä\n"
+"\t\t<a href=\"https://datacite.org/contact.html\" target=\"_blank\">palvelun "
+"kotisivujen kautta</a>\n"
+"\t\tja sinut ohjataan paikalliselle DataCiten jäsenelle. DataCiten "
+"jäsenorganisaatiolta saat \n"
+"\t\tDOI-tunnusten rekisteröintiin tarvittavat käyttäjätunnukset. Mikäli "
+"sinulla ei ole\n"
+"\t\tkäyttäjätunnuksia, voit siitä huolimatta viedä tietoja DataCite-palvelun "
+"käyttämässä\n"
+"\t\tXML-muodossa. Huomaa, että salasana tallennetaan salaamattomassa "
+"muodossa \n"
+"\t\ttietokantaan johtuen DataCite-palvelun vaatimuksista.\n"
+"\t"
+
+msgid "plugins.importexport.datacite.settings.form.username"
+msgstr "Käyttäjänimi (symbol)"
+
+msgid "plugins.importexport.datacite.settings.form.usernameRequired"
+msgstr ""
+"Anna DataCite-palvelusta saatu käyttäjänimi (symbol). Käyttäjänimessä ei saa "
+"olla kaksoispistettä."
+
+msgid ""
+"plugins.importexport.datacite.settings.form.automaticRegistration.description"
+msgstr ""
+"OJS tallettaa määritetyt DOI-tunnisteet automaattisesti DataCite-palveluun. "
+"Huomioithan, että käsittely saattaa kestää hetken julkaisemisen jälkeen. "
+"Voit tarkistaa kaikki rekisteröimättömät DOI-tunnisteet."
+
+msgid "plugins.importexport.datacite.settings.form.testMode.description"
+msgstr ""
+"Käytä DataCite-palvelun testiprefiksiä DOI-tunnisteen rekisteröintiin. "
+"Muista poistaa tämä valinta tuotantosivustolla."
+
+msgid "plugins.importexport.datacite.settings.form.testUsername"
+msgstr "Testikäyttäjänimi"
+
+msgid "plugins.importexport.datacite.settings.form.testPassword"
+msgstr "Testisalasana"
+
+msgid "plugins.importexport.datacite.settings.form.testDOIPrefix"
+msgstr "Testiprefiksi"
+
+msgid "plugins.importexport.datacite.settings.form.testDOIPrefixRequired"
+msgstr ""
+"Testiprefiksi vaaditaan, kun \"käytä DOI-rekisteröinnissä testiprefiksiä\" "
+"on valittuna."
+
+msgid "plugins.importexport.datacite.settings.form.testUsernameRequired"
+msgstr "Testikäyttäjätunnus vaaditaan, kun tuotantokäyttäjätunnus on annettu."
+
+msgid "plugins.importexport.datacite.senderTask.name"
+msgstr "DataCite-palvelun automaattinen rekisteröintitehtävä"
+
+msgid "plugins.importexport.datacite.cliUsage"
+msgstr ""
+"Käyttö: \n"
+"{$scriptName} {$pluginName} export [outputFileName] [journal_path] {issues|"
+"articles|galleys} objectId1 [objectId2] ...\n"
+"{$scriptName} {$pluginName} register [journal_path] {issues|articles|"
+"galleys} objectId1 [objectId2] ...\n"
+
+msgid "plugins.generic.datacite.displayName"
+msgstr "DataCite-hallintolisäosa"
+
+msgid "plugins.generic.datacite.description"
+msgstr "Käsittelee DataCite-metatietojen tallettamisen ja viennin"
+
+msgid "plugins.generic.datacite.registrationAgency.name"
+msgstr "DataCite"
+
+msgid "plugins.generic.datacite.deposit.unsuccessful"
+msgstr "Rekisteröinti ei onnistunut! Tarkista asetukset ja yritä uudelleen."

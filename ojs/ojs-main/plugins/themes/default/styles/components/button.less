@@ -1,0 +1,12 @@
+@import (reference) "../components.less";
+
+.PkpButton {
+    &:extend(.cmp_button_wire all);
+    cursor: pointer;
+	&:disabled {
+		cursor: not-allowed;
+		background-color: @bg-shade;
+		color: @text-light;
+		border-color: #aaa;
+	}
+}

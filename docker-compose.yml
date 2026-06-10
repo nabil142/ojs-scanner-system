@@ -1,0 +1,80 @@
+services:
+  ojs:
+    build:
+      context: .
+      dockerfile: Dockerfile.ojs
+    image: capstone-ojs:3_4_0-8
+    container_name: ojs-app
+    ports:
+      - "8080:80"
+    environment:
+      SERVERNAME: localhost:8080
+      OJS_DB_HOST: ojs-db
+      OJS_DB_USER: ojs
+      OJS_DB_PASSWORD: ojs
+      OJS_DB_NAME: ojs
+      OJS_SCANNER_TRIGGER_FILE: /scan-trigger/ojs-page-trigger.json
+      OJS_SCANNER_TRIGGER_THROTTLE_SECONDS: 60
+    volumes:
+      - scanner-trigger:/scan-trigger
+      - ./ojs/ojs-main/plugins/generic/scannerTrigger:/var/www/html/plugins/generic/scannerTrigger:ro
+    depends_on:
+      - ojs-db
+
+  ojs-db:
+    image: mariadb:11
+    container_name: ojs-db
+    environment:
+      MARIADB_DATABASE: ojs
+      MARIADB_USER: ojs
+      MARIADB_PASSWORD: ojs
+      MARIADB_ROOT_PASSWORD: root
+    volumes:
+      - ojs-db-data:/var/lib/mysql
+
+  scanner-api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    container_name: ojs-scanner-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./ojs/ojs-main:/ojs:ro
+      - ./ojs_scanner.db:/app/ojs_scanner.db
+    env_file:
+      - .env
+    environment:
+      OJS_SOURCE_PATH: /ojs
+      SEMGREP_ENABLED: "true"
+      SEMGREP_TIMEOUT_SECONDS: 90
+      SEMGREP_MAX_TARGETS: 30
+    depends_on:
+      - ojs
+
+  scanner-agent:
+    build:
+      context: .
+      dockerfile: Dockerfile.agent
+    container_name: ojs-sast-agent
+    volumes:
+      - ./ojs/ojs-main:/ojs:ro
+      - scanner-output:/scan-output
+      - scanner-trigger:/scan-trigger:ro
+    environment:
+      OJS_SOURCE_PATH: /ojs
+      SCANNER_OUTPUT_PATH: /scan-output/latest.json
+      SCANNER_TRIGGER_PATH: /scan-trigger/ojs-page-trigger.json
+      SCANNER_INTERVAL_SECONDS: 300
+      SCANNER_WATCH_CHANGES: "true"
+      SCANNER_WATCH_INTERVAL_SECONDS: 5
+      SEMGREP_ENABLED: "true"
+      SEMGREP_TIMEOUT_SECONDS: 90
+      SEMGREP_MAX_TARGETS: 30
+    depends_on:
+      - ojs
+
+volumes:
+  ojs-db-data:
+  scanner-output:
+  scanner-trigger:

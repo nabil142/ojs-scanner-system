@@ -1,0 +1,62 @@
+# Magnus Annemark <magnus.annemark@ub.lu.se>, 2025.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T11:05:46+00:00\n"
+"PO-Revision-Date: 2025-10-13 08:28+0000\n"
+"Last-Translator: Magnus Annemark <magnus.annemark@ub.lu.se>\n"
+"Language-Team: Swedish <http://translate.pkp.sfu.ca/projects/ojs/"
+"importexport-pubmed/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.18.2\n"
+
+msgid "plugins.importexport.pubmed.displayName"
+msgstr "Plugin för export av PubMed XML"
+
+msgid "plugins.importexport.pubmed.description"
+msgstr "Exporterar artikelmetadata i PubMed XML-format för indexing i MEDLINE."
+
+msgid "plugins.importexport.pubmed.export"
+msgstr "Exportera data"
+
+msgid "plugins.importexport.pubmed.export.issues"
+msgstr "Exportera nummer"
+
+msgid "plugins.importexport.pubmed.export.selectIssue"
+msgstr "Välj ett nummer att exportera."
+
+msgid "plugins.importexport.pubmed.export.articles"
+msgstr "Exportera artiklar"
+
+msgid "plugins.importexport.pubmed.export.selectArticle"
+msgstr "Välj artiklar att exportera."
+
+msgid "plugins.importexport.pubmed.cliUsage"
+msgstr ""
+"Användning: \n"
+"{$scriptName} {$pluginName} [xmlFileName] [journal_path] articles "
+"[articleId1] [articleId2] ...\n"
+"{$scriptName} {$pluginName} [xmlFileName] [journal_path] issues [issueId]\n"
+
+msgid "plugins.importexport.pubmed.cliError"
+msgstr "FEL:"
+
+msgid "plugins.importexport.pubmed.export.error.issueNotFound"
+msgstr "Inget nummer matchar det angivna nummer-ID:t \"{$issueId}\"."
+
+msgid "plugins.importexport.pubmed.export.error.articleNotFound"
+msgstr "Ingen artikel matchar det angivna artikel-ID:t \"{$articleId}\"."
+
+msgid "plugins.importexport.pubmed.settings.form.nlmTitle"
+msgstr "NLM-titelförkortning"
+
+msgid "plugins.importexport.pubmed.settings.form.nlmTitle.description"
+msgstr ""
+"Tidskriftens titelförkortning enligt NLM. Om du inte känner till "
+"förkortningen kan du söka efter den i  <a href=\"https://www.ncbi.nlm.nih."
+"gov/nlmcatalog/\">NLM:s katalog</a>."

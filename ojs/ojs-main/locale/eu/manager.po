@@ -1,0 +1,2683 @@
+# Ricardo Gómez-López <ricardogomezlopez@gmail.com>, 2023, 2025.
+# Josu Acosta <josuacostacalvo@gmail.com>, 2023, 2024.
+# Informatikaria <informatikaria@ueu.eus>, 2024.
+# Oihan Odriozola <oodriozola@euskaltzaindia.eus>, 2025.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T10:49:21+00:00\n"
+"PO-Revision-Date: 2025-10-29 15:42+0000\n"
+"Last-Translator: Oihan Odriozola <oodriozola@euskaltzaindia.eus>\n"
+"Language-Team: Basque <http://translate.pkp.sfu.ca/projects/ojs/manager/eu/>"
+"\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.18.2\n"
+
+msgid "manager.distribution.access"
+msgstr "Sarbidea"
+
+msgid "manager.distribution.copyrightYearBasis.description"
+msgstr ""
+"Aukeratu artikulu baten egile-eskubideen data lehenetsia nola hautatzen den. "
+"Lehenetsitako balio hau kasuz kasu gainidatzi daiteke. Artikuluz artikulu "
+"argitaratzen baduzu, ez erabili zenbakiaren argitalpen data."
+
+msgid "manager.distribution.copyrightYearBasis.issue"
+msgstr "Erabili zenbakiaren argitalpen-data"
+
+msgid "manager.distribution.copyrightYearBasis.submission"
+msgstr "Erabili artikuluaren argitalpen-data"
+
+msgid "manager.distribution.publication"
+msgstr "Argitalpena"
+
+msgid "manager.distribution.publishingMode"
+msgstr "Argitalpen eredua"
+
+msgid "manager.distribution.publishingMode.none"
+msgstr "OJS ez da erabiliko aldizkariaren edukiak linean argitaratzeko."
+
+msgid "manager.distribution.publishingMode.openAccess"
+msgstr "Aldizkariaren edukia sarrera librekoa izango da."
+
+msgid "manager.distribution.publishingMode.subscription"
+msgstr ""
+"Aldizkariak harpidetzea eskatuko du eduki batzuetara edo guztietara sartzeko."
+
+msgid "manager.setup.enableDois.description"
+msgstr ""
+"Aldizkari honetan argitaratutako lanei Objektu Identifikatzaile Digitalak "
+"(DOI) esleitzea baimendu."
+
+msgid "doi.manager.settings.doiObjectsRequired"
+msgstr ""
+"Hautatu zein elementuri esleituko zaien DOI bat. Aldizkari gehienek "
+"artikuluei esleitzen diete DOIa, baina baliteke argitaratutako elementu "
+"guztiei DOIa esleitu nahi izatea."
+
+msgid "doi.manager.settings.doiSuffixLegacy"
+msgstr ""
+"Erabili lehenetsitako ereduak.<br />%j.v%vi%i zenbakietarako<br /"
+">%j.v%vi%i.%a artikuluetarako<br />%j.v%vi%i.%a.g%g galeradetarako."
+
+msgid "doi.manager.settings.doiCreationTime.copyedit"
+msgstr "Edizio-fasera iritsitakoan"
+
+msgid "manager.website.archiving"
+msgstr "Artxibatzea"
+
+msgid "manager.files.note"
+msgstr ""
+"Oharra: Fitxategi-arakatzailea, aldizkari bateko fitxategiak eta "
+"direktorioak zuzenean ikusi eta manipulatzeko aukera ematen duen eginbide "
+"aurreratu bat da."
+
+msgid "manager.journalManagement"
+msgstr "Aldizkariaren kudeaketa"
+
+msgid "manager.language.ui"
+msgstr "Erabiltzailearen interfazea"
+
+msgid "manager.language.submissions"
+msgstr "Bidalketak"
+
+msgid "manager.language.forms"
+msgstr "Inprimakiak"
+
+msgid "manager.language.confirmDefaultSettingsOverwrite"
+msgstr ""
+"Locale honentzat zehaztu dituzun aldizkari-ezarpen guztiak ordeztuko ditu "
+"ekintza honek"
+
+msgid "manager.languages.languageInstructions"
+msgstr ""
+"OJS hainbat hizkuntzatan jar daiteke erabilgarri erabiltzaileentzat. "
+"Gainera, hizkuntza anitzeko sistema ere eskain dezake, erabiltzaileei orri "
+"bakoitzean hizkuntza aldatzeko eta datu batzuk hainbat hizkuntzatan sartzeko "
+"aukera emanez.<br /><br />OJSk onartzen duen hizkuntzaren bat beheko "
+"zerrendan ez badago, esan gune-administratzaileari instala dezala gune-"
+"administratzailearen interfazetik. Beste hizkuntza batzuk gehitzeko "
+"instrukzioak OJS dokumentazioan aurkituko dituzu."
+
+msgid "manager.languages.noneAvailable"
+msgstr ""
+"Ez dago beste hizkuntzarik erabilgarri. Aldizkari honetan hizkuntza gehiago "
+"erabili nahi badituzu, galdetu gune-administratzaileari."
+
+msgid "manager.languages.primaryLocaleInstructions"
+msgstr "Hau izango da aldizkariaren webguneko hizkuntza lehenetsia."
+
+msgid "manager.managementPages"
+msgstr "Kudeaketako orriak"
+
+msgid "manager.payment.action"
+msgstr "Ekintza"
+
+msgid "manager.payment.addPayment"
+msgstr "Gehitu ordainketa"
+
+msgid "manager.payment.amount"
+msgstr "Zenbatekoa"
+
+msgid "manager.payment.authorFees"
+msgstr "Egile-tarifak"
+
+#, fuzzy
+msgid "manager.payment.authorFeesDescription"
+msgstr ""
+"Hautatutako aukerak, dagozkien azalpenekin eta tarifekin batera (behean "
+"edita daitezke), bidalketa-prozesuaren 1. urratsean azalduko dira, eta "
+"halaber Aldizkariari buruz orriko Bidalketak sailean, eta ordainketa "
+"eskatzen duten gainerako puntuetan."
+
+msgid "manager.payment.currencymessage"
+msgstr ""
+"OJSk ez du moneta-bihurketarik egiten.  Harpidetza kobratzen bada, moneta "
+"bera zehaztu behar duzu hemen."
+
+msgid "manager.payment.description"
+msgstr "Azalpena"
+
+msgid "manager.payment.details"
+msgstr "Xehetasunak"
+
+msgid "manager.payment.editSubscription"
+msgstr "Editatu harpidetza"
+
+msgid "manager.payment.enable"
+msgstr "Gaitu"
+
+msgid "manager.payment.feePaymentOptions"
+msgstr "Ordaintzeko aukerak"
+
+msgid "manager.payment.form.numeric"
+msgstr ""
+"Kostu guztiak zenbakizko balio positiboak izan behar dira (dezimalak "
+"onartzen dira)"
+
+msgid "manager.payment.generalFees"
+msgstr "Tarifa orokorrak"
+
+msgid "manager.payment.generalFeesDescription"
+msgstr ""
+"Elkarteko kideak “Aldizkariari buruz” atalean agertuko dira, “Politika” "
+"atalaren azpian."
+
+msgid "manager.payment.generalOptions"
+msgstr "Aukera orokorrak"
+
+msgid "manager.payment.noPayments"
+msgstr "Ordainketarik ez"
+
+msgid "manager.payment.notFound"
+msgstr "Ez da aurkitu"
+
+msgid "manager.payment.options"
+msgstr "Aukerak"
+
+msgid "manager.payment.options.acceptSubscriptionPayments"
+msgstr ""
+"Aukera honek Harpidetzen ordainketa aktibatuko du. Motak, kostua, iraupena "
+"eta harpidedunak Harpidetzen kudeatzaileak kudeatuko ditu."
+
+msgid "subscriptionManager.subscription.confirmRemove"
+msgstr "Ziur zaude harpidetza hau ezabatu nahi duzula?"
+
+msgid "manager.payment.options.enablePayments"
+msgstr ""
+"Egin klik hemen Ordainketen modulua gaitzeko. Ordainketen ezarpenak "
+"konfiguratzeko, beheko inprimakia bete behar duzu. Kontuan izan "
+"erabiltzaileek saioa hasi beharko dutela ordainketak egiteko."
+
+msgid "manager.payment.options.fee"
+msgstr "Tarifa"
+
+msgid "manager.payment.options.feeDescription"
+msgstr "Tarifaren azalpena"
+
+msgid "manager.payment.options.feeName"
+msgstr "Tarifaren izena"
+
+msgid "manager.payment.options.membershipFee"
+msgstr "Elkarteko bazkide"
+
+msgid "manager.payment.options.onlypdf"
+msgstr "Artikuluen PDF bertsiorako sarbidea bakarrik murriztu"
+
+msgid "manager.payment.options.publicationFee"
+msgstr "Artikulua argitaratzea"
+
+msgid "manager.payment.options.purchaseArticleFee"
+msgstr "Artikulua erostea"
+
+msgid "manager.payment.options.purchaseIssueFee"
+msgstr "Erosi ale bat"
+
+msgid "manager.payment.options.text"
+msgstr "Ordaintzeko metodoaren azalpena"
+
+msgid "manager.payment.paymentId"
+msgstr "Ordainketa ID"
+
+msgid "manager.payment.paymentMethod"
+msgstr "Ordaintzeko modua"
+
+msgid "manager.payment.paymentMethod.description"
+msgstr ""
+"Pantaila honetan ondorengo Ordaintzeko metodoen pluginetako edozein "
+"konfigura dezakezu."
+
+msgid "manager.payment.paymentMethods"
+msgstr "Ordaintzeko moduak"
+
+msgid "manager.payment.paymentType"
+msgstr "Ordainketa mota"
+
+msgid "manager.payment.readerFees"
+msgstr "Irakurle-tarifak"
+
+msgid "manager.payment.readerFeesDescription"
+msgstr ""
+"Hautatutako aukerak, dagozkien azalpenekin eta tarifekin batera (behean "
+"edita daitezke), Aldizkariari buruz orriko Politikak sailean azalduko dira, "
+"eta halaber ordainketa eskatzen duten gainerako puntuetan."
+
+msgid "manager.payment.records"
+msgstr "Erregistroak"
+
+msgid "manager.paymentTypes"
+msgstr "Ordainketa-motak"
+
+msgid "manager.payment.userName"
+msgstr "Ordainketa ID"
+
+msgid "manager.people.allEnrolledUsers"
+msgstr "Aldizkari honetan inskribatutako erabiltzaileak"
+
+msgid "manager.people.allJournals"
+msgstr "Aldizkari guztiak"
+
+msgid "manager.people.allSiteUsers"
+msgstr "Inskribatu gune honetako erabiltzaile bat Aldizkari honetan"
+
+msgid "manager.people.showNoRole"
+msgstr "Erakutsi rolik gabeko erabiltzaileak"
+
+msgid "manager.people.allUsers"
+msgstr "Inskribatutako erabiltzaile guztiak"
+
+msgid "manager.people.confirmRemove"
+msgstr ""
+"Erabiltzailea aldizkaritik kendu nahi duzu? Ekintza honek aldizkarian dituen "
+"rol guztiak kenduko dizkio erabiltzaileari."
+
+msgid "manager.people.emailUsers.selectTemplate"
+msgstr "Hautatu txantiloi bat"
+
+msgid "manager.people.enrollExistingUser"
+msgstr "Inskribatu lehendik dagoen erabiltzaile bat"
+
+msgid "manager.people.enrollSyncJournal"
+msgstr "Aldizkari honekin"
+
+msgid "manager.people.mergeUsers.from.description"
+msgstr ""
+"Hautatu erabiltzaile bat beste erabiltzaile-kontu batekin batzeko (adib., bi "
+"kontu dituen erabiltzaile bat denean). Lehenengo hautatutako kontua ezabatu "
+"egingo da, eta dituen bidalketak, esleipenak, etab. bigarren kontuari "
+"egotziko zaizkio."
+
+msgid "manager.people.mergeUsers.into.description"
+msgstr ""
+"Hautatu erabiltzaile bat lehengo erabiltzailearen egiletasuna, edizio-"
+"esleipenak, etab. egozteko."
+
+msgid "manager.people.roleEnrollment"
+msgstr "{$role} inskribatzea"
+
+msgid "manager.people.syncUserDescription"
+msgstr ""
+"Inskripzioak sinkronizatzean, zehaztutako aldizkarian daukaten rol bera "
+"emango zaie erabiltzaileei aldizkari honetan. Erabiltzaile multzoak (adib., "
+"Ebaluatzaileak) aldizkari batetik bestera sinkronizatzeko erabiltzen da."
+
+msgid "manager.sections.abstractsNotRequired"
+msgstr "Ez zaie eskatuko laburpenik"
+
+msgid "manager.sections.assigned"
+msgstr "Atal honetako editoreak"
+
+msgid "manager.sections.confirmDelete"
+msgstr "Ziur al zaude atal hau behin betiko ezabatu nahi duzula?"
+
+msgid "manager.sections.alertDelete"
+msgstr ""
+"Atal hau ezabatu aurretik, bertara bidalitako artikuluak beste atal "
+"batzuetara mugitu behar dituzu."
+
+msgid "manager.sections.create"
+msgstr "Sortu atala"
+
+msgid "manager.section.sectionEditorInstructions"
+msgstr ""
+"Gehitu Ataleko editore bat, atal honetara iristen diren bidalketak "
+"automatikoki esleitzeko Ataleko editore horri. (Bestela, Ataleko editorea "
+"eskuz esleitu ahal izango da, bidalketa bat iristen den bakoitzean). Editore "
+"bat gehitzen bada, automatikoki esleitu ahal izango zaio atal honetarako "
+"bidaltzen diren lanen EBALUAZIOA (adituen ebaluazioa) eta/edo EDIZIOA ("
+"zuzenketa, maketazioa eta proba-zuzenketa) gainbegiratzea. Ataleko editoreak "
+"sortzeko, Aldizkariaren kudeaketako Rolak azpiatalean, Ataleko editoreak "
+"esteka sakatu behar da."
+
+msgid "manager.sections.editorRestriction"
+msgstr "Editoreek eta Ataleko editoreek bakarrik bidal ditzakete lanak."
+
+msgid "manager.sections.editors"
+msgstr "Ataleko editoreak"
+
+msgid "manager.sections.confirmDeactivateSection.error"
+msgstr ""
+"Atal batek, gutxienez, aktibo egon behar du. Bisitatu lan-fluxuaren "
+"ezarpenak aldizkari honetara egindako bidalketa guztiak desgaitzeko."
+
+msgid "manager.sections.form.abbrevRequired"
+msgstr "Titulu laburtua eman behar zaio atalari"
+
+msgid "manager.sections.form.mustAllowPermission"
+msgstr ""
+"Ziurtatu kontrol-lauki bat behintzat hautatu dela Ataleko editore "
+"bakoitzarentzat."
+
+msgid "manager.sections.form.reviewFormId"
+msgstr "Ziurtatu baliozko ebaluazio-inprimaki bat aukeratu duzula."
+
+msgid "manager.sections.form.titleRequired"
+msgstr "Titulua eman behar zaio atalari."
+
+msgid "manager.sections.hideTocAuthor"
+msgstr "Ez sartu atal honetako elementuen egile-izenak zenbakien aurkibidean."
+
+msgid "manager.sections.hideTocTitle"
+msgstr "Ez sartu atal honen titulua aldizkari-zenbakien aurkibidean."
+
+msgid "manager.sections.identifyType"
+msgstr "Identifikatu atal honetan argitaratutako elementuak honela"
+
+msgid "manager.sections.identifyTypeExamples"
+msgstr ""
+"(Adibidez, \"adituek ebaluatutako artikulua\", \"adituek ebaluatu gabeko "
+"liburu-kritika\", \"gonbidatutako iruzkina\", etab.)"
+
+msgid "manager.sections.indexed"
+msgstr "Indexatua"
+
+msgid "manager.sections.noneCreated"
+msgstr "Ez da atalik sortu."
+
+msgid "manager.sections.open"
+msgstr "Bidalketa irekiak"
+
+msgid "manager.sections.policy"
+msgstr "Atalaren politika"
+
+msgid "manager.sections.readingTools"
+msgstr "Irakurtzeko tresnak"
+
+msgid "manager.sections.reviewed"
+msgstr "Adituen ebaluazioa"
+
+msgid "manager.sections.submissionIndexing"
+msgstr "Ez dira sartuko aldizkariaren indexatzean"
+
+msgid "manager.sections.submissionReview"
+msgstr "Ez zaie egingo adituen ebaluaziorik"
+
+msgid "manager.section.submissionsToThisSection"
+msgstr "Aldizkariaren atal honetara egindako bidalketak"
+
+msgid "manager.sections.unassigned"
+msgstr "Ataleko editore erabilgarriak"
+
+msgid "manager.sections.wordCount"
+msgstr "Hitz kopurua"
+
+msgid "manager.sections.wordCountInstructions"
+msgstr "Mugatu atal honetako laburpenen hitz kopurua (0 mugarik ez jartzeko)"
+
+msgid "manager.setup"
+msgstr "Konfigurazioa"
+
+msgid "manager.setup.homepageContent"
+msgstr "Aldizkariaren hasiera-orriko edukia"
+
+msgid "manager.setup.homepageContentDescription"
+msgstr ""
+"Aldizkariaren hasierako orrialdeak nabigazio-estekak ditu lehenetsita. Eduki "
+"gehigarria erantsi daiteke ondorengo aukeretako bat edo guztiak erabiliz, "
+"eta erakusten diren ordenan agertuko dira."
+
+msgid "manager.setup.useStyleSheet"
+msgstr "Aldizkariaren estilo-liburua"
+
+msgid "manager.setup.contextName"
+msgstr "Aldizkariaren izena"
+
+msgid "manager.setup.pageHeader"
+msgstr "Aldizkariaren goiburua"
+
+msgid "manager.setup.aboutItemContent"
+msgstr "Edukia"
+
+msgid "manager.setup.addAboutItem"
+msgstr "Gehitu \"Aldizkariari buruz\" elementua"
+
+msgid "manager.setup.addChecklistItem"
+msgstr "Gehitu zerrendako puntua"
+
+msgid "manager.setup.addItem"
+msgstr "Gehitu puntua"
+
+msgid "manager.setup.addItemtoAboutJournal"
+msgstr "Gehitu \"Aldizkariari buruz\" orrian agertzeko elementua"
+
+msgid "manager.setup.addNavItem"
+msgstr "Gehitu elementua"
+
+msgid "manager.setup.addReviewerDatabaseLink"
+msgstr "Gehitu datu-baserako esteka berria"
+
+msgid "manager.setup.addSponsor"
+msgstr "Gehitu Erakunde babeslea"
+
+msgid "manager.setup.alternateHeader"
+msgstr "Goiburu alternatiboa"
+
+msgid "manager.setup.alternateHeaderDescription"
+msgstr ""
+"Tituluaren eta logoaren ordez, goiburuaren HTML bertsio bat txerta daiteke "
+"beheko testu-koadroan. Behar ez baduzu, utzi testu-koadroa hutsik."
+
+msgid "manager.setup.announcements"
+msgstr "Iragarkiak"
+
+msgid "manager.setup.announcementsIntroduction"
+msgstr "Sarrera"
+
+msgid "manager.setup.announcementsIntroduction.description"
+msgstr ""
+"Idatzi Anuntzioen orrian irakurleei erakutsi nahi zaien gainerako "
+"informazioa."
+
+msgid "manager.setup.appearInAboutJournal"
+msgstr "(Aldizkariari buruz orrian agertzeko) "
+
+msgid "manager.setup.competingInterests.requireReviewers"
+msgstr ""
+"Eskatu Ebaluatzaileei Interes-gatazkari buruzko deklarazio bat erants "
+"dezatela adituen ebaluazio bat bidaltzen duten bakoitzean."
+
+msgid "manager.setup.history"
+msgstr "Aldizkariaren historia"
+
+msgid "manager.setup.historyDescription"
+msgstr ""
+"Testua aldizkariaren web orriko “Aldizkariari buruz” atalean agertuko da, "
+"eta tituluetan, talde editorialean eta aldizkariaren argitalpen-historian "
+"garrantzitsuak diren beste zenbait elementutan egindako aldaketak "
+"deskribatzeko erabili daiteke."
+
+msgid "manager.setup.currentIssue"
+msgstr "Uneko zenbakia"
+
+msgid "manager.setup.customizingTheLook"
+msgstr "5. urratsa. Aldizkariaren itxura"
+
+msgid "manager.setup.details"
+msgstr "Xehetasunak"
+
+msgid "manager.setup.details.description"
+msgstr "Aldizkariaren izena, ISSN, kontaktuak, babesleak eta bilatzaileak."
+
+msgid "manager.setup.disableUserRegistration"
+msgstr ""
+"Aldizkariaren kudeatzaileak erabiltzaile guztiak erregistra ditzake. "
+"Editoreek edo Ataleko editoreek Ebaluatzaileak bakarrik erregistra ditzakete."
+
+msgid "manager.setup.discipline"
+msgstr "Diziplina eta azpidiziplina akademikoak"
+
+msgid "manager.setup.disciplineDescription"
+msgstr ""
+"Praktikoa da aldizkariak diziplina baten mugak gainditzen dituenean eta/edo "
+"egileek diziplina anitzeko lanak bidaltzen dituztenean."
+
+msgid "manager.setup.disciplineExamples"
+msgstr ""
+"(Adib., Historia; Hezkuntza; Soziologia; Psikologia; Kultura-gaiak; "
+"Zuzenbidea)"
+
+msgid "manager.setup.disciplineProvideExamples"
+msgstr "Eman aldizkarian tratatzen diren diziplina akademikoen adibideak"
+
+msgid "manager.setup.displayCurrentIssue"
+msgstr "Gehitu uneko zenbakiaren aurkibidea (baldin badago)."
+
+msgid "manager.setup.editorDecision"
+msgstr "Editorearen erabakia"
+
+msgid "manager.setup.emailBounceAddress"
+msgstr "Erreboteko helbidea"
+
+msgid "manager.setup.emailBounceAddress.description"
+msgstr ""
+"Mezu bat bidali ezinda geratzen den bakoitzean, errore-mezu bat iritsiko da "
+"helbide honetara."
+
+msgid "manager.setup.emailBounceAddress.disabled"
+msgstr ""
+"Aukera hau aktibatzeko, gune-administratzaileak <code>allow_envelope_sender</"
+"code> aukera gaitu behar du konfigurazio-fitxategian. Funtzionalitate hau "
+"erabili ahal izateko, zerbitzari-konfigurazio gehiago egin beharko dira "
+"seguru asko (eta zerbitzari guztietan ezin izango da), OJS dokumentazioan "
+"adierazten den bezala."
+
+msgid "manager.setup.emails"
+msgstr "Helbide elektronikoen identifikazioa"
+
+msgid "manager.setup.emailSignature"
+msgstr "Sinadura"
+
+msgid "manager.setup.emailSignature.description"
+msgstr ""
+"Sistemak aldizkariaren izenean bidaltzen dituen mezuek sinadura hau izango "
+"dute."
+
+msgid "manager.setup.enableAnnouncements.enable"
+msgstr "Gaitu oharrak"
+
+msgid "manager.setup.enableAnnouncements.description"
+msgstr ""
+"Anuntzioak argitara daitezke aldizkariaren irakurleei albisteen eta "
+"gertaeren berri emateko. Argitaratutako anuntzioak Anuntzioen orrian "
+"agertuko dira."
+
+msgid "manager.setup.numAnnouncementsHomepage"
+msgstr "Erakutsi hasiera-orria"
+
+msgid "manager.setup.numAnnouncementsHomepage.description"
+msgstr ""
+"Zenbat iragarki bistaratu hasierako orrian. Utzi hutsik bat ere ez "
+"bistaratzeko."
+
+msgid "manager.setup.enableUserRegistration"
+msgstr "Bisitariek erabiltzaile-kontu bat erregistra dezakete aldizkarian."
+
+msgid "manager.setup.focusAndScope"
+msgstr "Orientazioa eta esparrua"
+
+msgid "manager.setup.focusAndScope.description"
+msgstr ""
+"Deskribatu egileei, irakurleei eta liburuzainei aldizkariak argitaratuko "
+"dituen artikulu- eta bestelako elementu-sorta."
+
+msgid "manager.setup.forAuthorsToIndexTheirWork"
+msgstr "Egileek beren lana indexatzen lagundu dezaten"
+
+msgid "manager.setup.forAuthorsToIndexTheirWorkDescription"
+msgstr ""
+"OJS <a href=\"http://www.openarchives.org/\" target=\"_blank\">Open Archives "
+"Initiative</a> ekimenaren Metadatuak Biltzeko Protokoloari (Protocol for "
+"Metadata Harvesting) atxikitzen zaio. Protokolo hori estandar berri bat da, "
+"eta mundu guztiko ikerketako baliabideak eskaintzen ditu ongi indexatuta. "
+"Egileek antzeko txantiloi bat erabiliko dute beren bidalketaren metadatuak "
+"emateko. Aldizkariaren kudeatzaileek indexatzeko kategoriak hautatuko "
+"dituzte eta egileei adibide argigarriak emango dizkiete beren lana "
+"indexatzen laguntzeko, gako-hitzak puntu eta komaz bereiziz (adib., "
+"1terminoa; 2terminoa). Sarrerak adibide moduan sartu behar dira \"Adib.,\" "
+"edo \"Adibidez,\" jarrita."
+
+msgid "manager.setup.form.issnInvalid"
+msgstr "Zehaztutako ISSNa ez da baliozkoa."
+
+msgid "manager.setup.form.contactEmailRequired"
+msgstr "Kontaktu nagusiaren helbide elektronikoa eman behar da."
+
+msgid "manager.setup.form.contactNameRequired"
+msgstr "Kontaktu nagusiaren izena eman behar da."
+
+msgid "manager.setup.form.journalInitialsRequired"
+msgstr "Aldizkariaren inizialak eman behar dira."
+
+msgid "manager.setup.form.journalTitleRequired"
+msgstr "Aldizkariaren titulua eman behar da."
+
+msgid "manager.setup.form.numReviewersPerSubmission"
+msgstr "Bidalketa bakoitzeko ebaluatzaile kopurua zehaztu behar da."
+
+msgid "manager.setup.form.supportEmailRequired"
+msgstr "Laguntza teknikoko kontaktuaren helbide elektronikoa eman behar da."
+
+msgid "manager.setup.form.supportNameRequired"
+msgstr "Laguntza teknikoko kontaktuaren izena eman behar da."
+
+msgid "manager.setup.generalInformation"
+msgstr "Informazio orokorra"
+
+msgid "manager.setup.gettingDownTheDetails"
+msgstr "1. urratsa. Xehetasunak"
+
+msgid "manager.setup.guidelines"
+msgstr "Gidalerroak"
+
+msgid "manager.setup.guidingSubmissions"
+msgstr "3. urratsa. Bidalketak egiteko gidalerroak"
+
+msgid "manager.setup.identity"
+msgstr "Aldizkariaren identitatea"
+
+msgid "manager.setup.includeCreativeCommons"
+msgstr ""
+"Berehalako edo atzeratutako sarbide irekia eskaintzen duten aldizkarietan, "
+"sartu Creative Commons lizentzia argitaratutako lan guztietan une egokian."
+
+msgid "manager.setup.information"
+msgstr "Informazioa"
+
+msgid "manager.setup.information.description"
+msgstr ""
+"Alboko barrako \"Informazioa\" sailean aldizkariaren azalpen labur bat "
+"ematen da liburuzainentzat eta egile eta irakurleentzat."
+
+msgid "manager.setup.information.forAuthors"
+msgstr "Egileentzat"
+
+msgid "manager.setup.information.forLibrarians"
+msgstr "Liburuzainentzat"
+
+msgid "manager.setup.information.forReaders"
+msgstr "Irakurleentzat"
+
+msgid "manager.setup.initialIssue"
+msgstr "Lehenengo zenbakia"
+
+msgid "manager.setup.initialIssueDescription"
+msgstr ""
+"Hautatutako formatuaren arabera, identifikatu OJSrekin argitaratuko den "
+"lehenengo zenbakiaren zenbakia, bolumena eta/edo urtea:"
+
+msgid "manager.setup.institution"
+msgstr "Erakundea"
+
+msgid "manager.setup.itemsDescription"
+msgstr ""
+"Nabigazio-barran elementu gehiago ere jar daitezke, oraingoekin batera "
+"(Hasierako orria, Guri buruz, Erabiltzailearen hasierako orria, etab.) "
+"orriaren goialdean ager daitezen."
+
+msgid "manager.setup.itemsPerPage"
+msgstr "Orrialdeko elementuak"
+
+msgid "manager.setup.itemsPerPage.description"
+msgstr ""
+"Mugatu zerrenda batean agertzeko elementu-kopurua (adibidez, bidalketak, "
+"erabiltzaileak edo edizio-esleipenak) ondorengo elementuak beste orri batean "
+"erakutsi aurretik."
+
+msgid "manager.setup.journalAbbreviation"
+msgstr "Aldizkariaren laburdura"
+
+msgid "manager.setup.journalArchiving"
+msgstr "Aldizkari-artxibatzea"
+
+msgid "manager.setup.contextSummary"
+msgstr "Aldizkariaren aurkibidea"
+
+msgid "manager.setup.contextAbout"
+msgstr "Aldizkariari buruz"
+
+msgid "manager.setup.contextAbout.description"
+msgstr ""
+"Sartu zure aldizkariari buruzko edozein informazio, irakurleentzat, egile "
+"edo ebaluatzaileentzat interesgarria izan daitekeena. Honen barruan egon "
+"daitezke zure sarbide irekiko politika, aldizkariaren fokua eta irismena, "
+"egile-eskubideen oharra, babesleen dibulgazioa, aldizkariaren historia, "
+"pribatutasun adierazpena eta LOCKSS edo CLOCKSS artxibo-sistema batean "
+"sartzea."
+
+msgid "manager.setup.journalHomepageContent"
+msgstr "Aldizkariaren hasierako orriaren edukia"
+
+msgid "manager.setup.journalHomepageContentDescription"
+msgstr ""
+"Lehenespenez, hasierako orria nabigazio-estekek osatuko dute. Hasierako "
+"orrian eduki gehiago sar daiteke, ondorengo aukeretakoren bat edo guztiak "
+"baliatuz. Ordena horretan agertuko dira. Kontuan izan, uneko zenbakira beti "
+"joan daitekeela nabigazio-barrako Unekoa estekaren bitartez."
+
+msgid "manager.setup.journalHomepageHeader"
+msgstr "Aldizkariaren Hasierako orriaren goiburua"
+
+msgid "manager.setup.journalHomepageHeader.altText"
+msgstr "Aldizkariaren Hasierako orriaren goiburua"
+
+msgid "manager.setup.journalHomepageHeaderDescription"
+msgstr ""
+"Aldizkariaren tituluaren eta logoaren bertsio grafikoa (.gif, .jpg, edo .png "
+"fitxategi bat) karga daiteke hasierako orrian, bestela agertuko litzatekeen "
+"testu-bertsioaren ordez ager dadin."
+
+msgid "manager.setup.contextInitials"
+msgstr "Aldizkariaren inizialak"
+
+msgid "manager.setup.selectCountry"
+msgstr ""
+"Hautatu aldizkari hau kokatuta dagoen herrialdea, edo aldizkariaren edo "
+"argitaletxearen posta-helbidearen herrialdea."
+
+msgid "manager.setup.journalLayout"
+msgstr "Aldizkariaren diseinua"
+
+msgid "manager.setup.journalLayoutDescription"
+msgstr ""
+"Aukeratu aldizkariarentzako tema bat eta hautatu diseinu-osagaiak. "
+"Aldizkariaren estilo-orria ere karga daiteke. Estilo-orri horrek sistema "
+"guztian erabiltzen diren estilo-orrien eta temaren estilo-orriaren (temarik "
+"aukeratu bada) estilo-datuak gainidatzi ahal izango ditu."
+
+msgid "manager.setup.journalLogo"
+msgstr "Aldizkariaren logoa"
+
+msgid "manager.setup.journalLogo.altText"
+msgstr "Aldizkariaren logoa"
+
+msgid "manager.setup.journalPageFooter"
+msgstr "Aldizkariko orri-oina"
+
+msgid "manager.setup.journalPageFooterDescription"
+msgstr ""
+"Hau da zure aldizkariko orri-oina. Aldatu nahi baduzu, idatzi orri-oinaren "
+"HTML kodea beheko testu-koadroan. Adibidez, beste nabigazio-barra bat, "
+"kontagailu bat, etab. Orri-oina orrialde guztietan agertuko da."
+
+msgid "manager.setup.journalPolicies"
+msgstr "2. urratsa. Aldizkariaren politika"
+
+msgid "manager.setup.journalSetup"
+msgstr "Aldizkariaren konfigurazioa"
+
+msgid "manager.setup.journalSetupUpdated"
+msgstr "Zure aldizkariaren konfigurazioa eguneratu da."
+
+msgid "manager.setup.journalStyleSheetInvalid"
+msgstr ""
+"Aldizkariaren estilo-orriaren formatua ez da zuzena: .css formatua bakarrik "
+"onartzen da."
+
+msgid "manager.setup.journalTheme"
+msgstr "Aldizkariaren tema"
+
+msgid "manager.setup.journalThumbnail"
+msgstr "Aldizkariaren miniatura"
+
+msgid "manager.setup.journalThumbnail.description"
+msgstr ""
+"Aldizkariaren logotipo edo irudikapen txiki bat, aldizkarien zerrendetan "
+"erabil daitekeena."
+
+msgid "manager.setup.contextTitle"
+msgstr "Aldizkariaren titulua"
+
+msgid "manager.setup.labelName"
+msgstr "Etiketa-izena"
+
+msgid "manager.setup.lists"
+msgstr "Zerrendak"
+
+msgid "manager.setup.plnPluginEnable"
+msgstr "Gaitu PKP PN plugina"
+
+msgid "manager.setup.plnDescription"
+msgstr ""
+"PKP Preservation Network (PN) erakundeak doako kontserbazio zerbitzuak "
+"eskaintzen ditu oinarrizko irizpide batzuk betetzen dituen edozein OJS "
+"aldizkarirentzat."
+
+msgid "manager.setup.plnSettingsDescription"
+msgstr ""
+"Ikusi <button>pluginaren ezarpenak</button> PKP PNren erabilera baldintzak "
+"onartzeko."
+
+msgid "manager.setup.plnPluginArchiving"
+msgstr "PKP Preservation Network (PN)"
+
+msgid "manager.setup.plnPluginNotInstalled"
+msgstr ""
+"PKP Preservation Network (PN) sareak doako kontserbazio zerbitzuak "
+"eskaintzen ditu oinarrizko irizpide batzuk betetzen dituen edozein OJS "
+"aldizkarirentzat. Zure aldizkaria PNn artxibatzeko, eskatu "
+"administratzaileari Pluginen Galeriatik PKP|PN plugina instalatzeko."
+
+msgid "manager.setup.otherLockss"
+msgstr "LOCKSS eta CLOCKSS"
+
+msgid "manager.setup.lockssEnable"
+msgstr ""
+"LOCKSS gaitu aldizkariaren edukia biltegiratzeko eta liburutegi partaideei "
+"bidaltzeko LOCKSSen <a href=\"{$lockssUrl}\" target=\"_blank\""
+">Argitaratzailearen Manifestu</a> orri baten bidez."
+
+msgid "manager.setup.lockssLicenseLabel"
+msgstr "LOCKSS lizentziaren deskribapena"
+
+msgid "manager.setup.lockssRegister"
+msgstr ""
+"Identifikatu 6-10 liburutegi aldizkaria erregistratu eta gordeko dutenak. "
+"Adibidez, editoreek edo Kontseiluko kideek lan egiten duten erakundeak eta/"
+"edo dagoeneko LOCKSSen parte hartzen duten erakundeak. Ikusi <a href=\"http"
+"://www.lockss.org/community/\" target=\"_blank\">LOCKSS komunitatea</a>."
+
+msgid "manager.setup.lockssTitle"
+msgstr "LOCKSS"
+
+msgid "manager.setup.clockssEnable"
+msgstr ""
+"Gaitu CLOCKSS aldizkariaren edukia parte hartzen duten liburutegietan "
+"gordetzeko eta banatzeko CLOCKSS <a href=\"{$clockssUrl}\" target=\"_blank\""
+">Publisher Manifest</a> orri baten bidez."
+
+msgid "manager.setup.clockssLicenseLabel"
+msgstr "CLOCKSS lizentziaren deskribapena"
+
+msgid "manager.setup.clockssRegister"
+msgstr ""
+"Eman izena CLOCKSS zerbitzuan <a href=\"https://clockss.org\" target=\"_blank"
+"\">CLOCKSS webgunea</a> bisitatuz."
+
+msgid "manager.setup.clockssTitle"
+msgstr "CLOCKSS"
+
+msgid "manager.setup.look"
+msgstr "Itxura"
+
+msgid "manager.setup.look.description"
+msgstr ""
+"Hasierako orriaren goiburua, edukia, aldizkariko orri-burua, orri-oina, "
+"nabigazio-barra eta estilo-orria."
+
+msgid "manager.setup.management"
+msgstr "Kudeaketa"
+
+msgid "manager.setup.management.description"
+msgstr ""
+"Sarbidea eta segurtasuna, programazioa, anuntzioak, zuzenketa, maketazioa "
+"eta proba-zuzenketa."
+
+msgid "manager.setup.managementOfBasicEditorialSteps"
+msgstr "Oinarrizko urrats editorialen kudeaketa"
+
+msgid "manager.setup.managingPublishingSetup"
+msgstr "Kudeaketa eta argitalpena konfiguratzea"
+
+msgid "manager.setup.managingTheJournal"
+msgstr "4. urratsa. Aldizkariaren kudeaketa"
+
+msgid "manager.setup.navigationBar"
+msgstr "Nabigazio-barra"
+
+msgid "manager.setup.navigationBarDescription"
+msgstr "Nabigazio-barrako elementuak gehitu edo kendu."
+
+msgid "manager.setup.navItemIsAbsolute"
+msgstr ""
+"URLa helbide absolutua da (adib., \"http://www.gurealdizkaria.com\"), ez "
+"guneko helbide erlatibo bat (adib., \"/kudeatzailea/ezarpenak\")"
+
+msgid "manager.setup.navItemIsLiteral"
+msgstr ""
+"Etiketaren balioa kate literala da (adib., \"Aldizkariaren konfigurazioa\"), "
+"ez lokalizazioko mezua (adib., \"manager.setup\")"
+
+msgid "manager.setup.noImageFileUploaded"
+msgstr "Ez da irudi-fitxategirik kargatu."
+
+msgid "manager.setup.noStyleSheetUploaded"
+msgstr "Ez da estilo-orririk kargatu."
+
+msgid "manager.setup.note"
+msgstr "Oharra"
+
+msgid "manager.setup.notifications.submissionAckDisabled"
+msgstr ""
+"<strong>Oharra:</strong>: Bidalketaren hartu-agiri mezua desgaituta dago "
+"orain. Eginbide hori erabiltzeko, gaitu SUBMISSION_ACK mezua mezu "
+"elektronikoen atalean."
+
+msgid "manager.setup.numPageLinks"
+msgstr "Orrialdeetarako estekak"
+
+msgid "manager.setup.numPageLinks.description"
+msgstr ""
+"Mugatu zerrenda bateko hurrengo orrialdeetara bistaratuko diren esteka-"
+"kopurua."
+
+msgid "manager.setup.onlineIssn"
+msgstr "Lineako ISSN"
+
+msgid "manager.setup.pageNumberIdentifier"
+msgstr "Orrialde-zenbakien aukera"
+
+msgid "manager.setup.policies"
+msgstr "Politikak"
+
+msgid "manager.setup.policies.description"
+msgstr ""
+"Orientazioa, adituen ebaluazioa, atalak, pribatutasuna, segurtasuna eta "
+"antzekoak."
+
+msgid "manager.setup.printIssn"
+msgstr "Inprimatzeko ISSN"
+
+msgid "manager.setup.proofingInstructions"
+msgstr "Probak zuzentzeko instrukzioak"
+
+msgid "manager.setup.proofingInstructionsDescription"
+msgstr ""
+"Probak zuzentzeko instrukzioak eskuragarri izango dituzte proba-"
+"zuzentzaileek, egileek, maketatzaileek eta ataleko editoreek bidalketen "
+"edizioaren fasean. Behean ematen da instrukzio multzo lehenetsi bat, HTML "
+"formatuan. Edozein unetan aldatu edo ordeztu dezake aldizkariaren "
+"kudeatzaileak (HTML formatuan nahiz testu arruntean)."
+
+msgid "manager.setup.publicationSchedule"
+msgstr "Argitalpen-programa"
+
+msgid "manager.setup.publicationScheduleDescription"
+msgstr ""
+"Aldizkariko artikuluak eta lanak multzoan argitara daitezke, zenbaki bat "
+"osatuz, dagokion Aurkibidearekin. Baina artikuluak banaka ere argitara "
+"daitezke, prest egon ahala, eta \"uneko\" bolumenaren Aurkibidean gehitu. "
+"Azaldu irakurleei, Aldizkariari buruz orrian, zein izango den aldizkari "
+"honek erabiliko duen sistema, eta zein izango den argitalpenen maiztasuna."
+
+msgid "manager.setup.publicationScheduling"
+msgstr "Argitalpena programatu"
+
+msgid "manager.setup.publicIdentifier"
+msgstr "Aldizkariaren edukiaren identifikazioa"
+
+msgid "manager.setup.publisher"
+msgstr "Argitaratzailea"
+
+msgid "manager.setup.referenceLinking"
+msgstr "Erreferentziarako esteka"
+
+msgid "manager.setup.restrictArticleAccess"
+msgstr ""
+"Sarrera libreko edukia ikusteko, erabiltzaileak erregistratuta egon behar du "
+"eta saioa hasi."
+
+msgid "manager.setup.restrictSiteAccess"
+msgstr ""
+"Aldizkariaren gunea ikusteko, erabiltzaileak erregistratuta egon behar du "
+"eta saioa hasi."
+
+msgid "manager.setup.reviewGuidelines"
+msgstr "Ebaluazioa egiteko gidalerroak"
+
+msgid "manager.setup.reviewOptions"
+msgstr "Ebaluazio-aukerak"
+
+msgid "manager.setup.reviewOptions.automatedReminders"
+msgstr ""
+"Mezu elektroniko automatikoak (OJSren mezu elektroniko lehenetsietan daude) "
+"bi puntutan bidal dakizkieke oroigarri gisa ebaluatzaileei (hala ere, "
+"editoreak nahi duenean bidal diezazkioke mezuak zuzenean ebaluatzaileari)"
+
+msgid "manager.setup.reviewOptions.automatedRemindersDisabled"
+msgstr ""
+"<strong>Oharra:</strong> Aukera hauek aktibatzeko, gune-administratzaileak "
+"<tt>scheduled_tasks</tt> aukera gaitu behar du konfigurazio-fitxategian. "
+"Funtzionalitate hau erabili ahal izateko, zerbitzari-konfigurazio gehiago "
+"egin beharko dira seguru asko (eta zerbitzari guztietan ezin izango da), OJS "
+"dokumentazioan adierazten den bezala."
+
+msgid "manager.setup.reviewOptions.numWeeksPerReview"
+msgstr "Ebaluazioak egiteko uzten den ohiko denbora"
+
+msgid "manager.setup.reviewOptions.onQuality"
+msgstr ""
+"Editoreek bost puntuko kalitate-eskala baten arabera baloratuko dituzte "
+"ebaluatzaileak, ebaluazio bakoitzaren ondoren."
+
+msgid "manager.setup.reviewOptions.restrictReviewerFileAccess"
+msgstr "Mugatu fitxategirako sarbidea"
+
+msgid "manager.setup.reviewOptions.restrictReviewerFileAccess.description"
+msgstr ""
+"Ebaluazioa egitea onartu ondoren bakarrik izango dute ebaluatzaileek "
+"bidalketa-fitxategian sartzeko baimena."
+
+msgid "manager.setup.reviewOptions.reviewerAccess"
+msgstr "Ebaluatzaileen sarbidea"
+
+msgid "manager.setup.reviewOptions.reviewerAccessKeysEnabled"
+msgstr "Gaitu klik bakarreko ebaluatzaile-sarbidea"
+
+msgid "manager.setup.reviewOptions.reviewerAccessKeysEnabled.description"
+msgstr ""
+"Ebaluatzaileei esteka seguru bat bidal dakieke posta elektroniko bidezko "
+"gonbidapenean, eta horrek automatikoki saioa hasiko du estekan klik egiten "
+"dutenean."
+
+msgid "manager.setup.reviewOptions.reviewerAccessKeysEnabled.label"
+msgstr ""
+"Sartu esteka seguru bat ebaluatzaileei bidalitako gonbidapen elektronikoan."
+
+msgid "manager.setup.reviewOptions.reviewerRatings"
+msgstr "Ebaluatzaileen kalifikazioa"
+
+msgid "manager.setup.reviewOptions.reviewerReminders"
+msgstr "Ebaluatzaileentzako oroigarriak"
+
+msgid "manager.setup.reviewPolicy"
+msgstr "Ebaluazio-politika"
+
+msgid "manager.setup.searchEngineIndexing"
+msgstr "Bilatzailearen indexatzea"
+
+msgid "manager.setup.searchEngineIndexing.description"
+msgstr ""
+"Lagundu Google bezalako bilatzaileei zure gunea aurkitzen eta erakusten. "
+"Horretarako, zure <a href=\"{$sitemapUrl}\" target=\"_blank\">gunearen mapa</"
+"a> bidaltzera animatzen zaitugu."
+
+msgid "manager.setup.searchDescription.description"
+msgstr ""
+"Eman aldizkariaren deskribapen labur bat (50-300 karaktere), bilatzaileek "
+"aldizkaria bilaketa-emaitzetan zerrendatzean bistara dezaketena."
+
+msgid "manager.setup.sectionsAndSectionEditors"
+msgstr "Atalak eta Ataleko editoreak"
+
+msgid "manager.setup.sectionsDefaultSectionDescription"
+msgstr ""
+"(atalik ez bada zehazten, lana zuzenean Artikuluen atalera joango da "
+"lehenespenez.)"
+
+msgid "manager.setup.sectionsDescription"
+msgstr ""
+"Aldizkariaren atalak sortzeko edo aldatzeko (adib., Artikuluak, Liburuen "
+"kritikak, etab.) joan Atalen kudeaketara.<br /><br />Egileek aldizkarira "
+"lanak bidaltzen dituztenean, adieraziko dute..."
+
+msgid "manager.setup.selectEditorDescription"
+msgstr ""
+"Aldizkariko zein editorek jarraituko duen lana prozesu editorialean zehar."
+
+msgid "manager.setup.selectSectionDescription"
+msgstr "Lana aldizkariaren zein ataletarako pentsatua den."
+
+msgid "manager.setup.showGalleyLinksDescription"
+msgstr "Beti erakutsi galerada-estekak eta adierazi sarbide murriztua."
+
+msgid "manager.setup.siteAccess.view"
+msgstr "Gunerako sarbidea"
+
+msgid "manager.setup.siteAccess.viewContent"
+msgstr "Ikusi artikuluaren edukia"
+
+msgid "manager.setup.stepsToJournalSite"
+msgstr "Aldizkariaren webgunea konfiguratzeko bost urrats"
+
+msgid "manager.setup.subjectExamples"
+msgstr ""
+"(Adib., Fotosintesia; Zulo beltzak; Lau koloretako maparen teorema; Bayes-en "
+"teorema)"
+
+msgid "manager.setup.subjectKeywordTopic"
+msgstr "Gako-hitzak"
+
+msgid "manager.setup.subjectProvideExamples"
+msgstr "Eman gako-hitzen edo gaien adibideak, egileentzako laguntza gisa"
+
+msgid "manager.setup.submissionGuidelines"
+msgstr "Bidalketei buruzko gidalerroak"
+
+msgid "manager.setup.submissions"
+msgstr "Bidalketak"
+
+msgid "manager.setup.submissions.description"
+msgstr ""
+"Egileentzako gidalerroak, egile-eskubideak eta indexatzea (erregistratzea "
+"barne)."
+
+msgid "manager.setup.disableSubmissions.description"
+msgstr ""
+"Eragotzi erabiltzaileei aldizkarira artikulu berriak bidaltzea. Bidalketak "
+"aldizkariaren atal bakoitzerako desgaitu daitezke <a href=\"{$url}\""
+">aldizkariaren atalen</a> ezarpenen orrian."
+
+msgid "manager.setup.disableSubmissions.notAccepting"
+msgstr ""
+"Aldizkari honek ez du bidalketarik onartzen une honetan. Bisitatu lan-"
+"fluxuaren ezarpenak bidalketak onartzeko."
+
+msgid "manager.setup.enableOai"
+msgstr "Gaitu OAI"
+
+msgid "manager.setup.enableOai.description"
+msgstr ""
+"Eman metadatuak hirugarrenen indexazio-zerbitzuei <a href=\"https://www."
+"openarchives.org/\">Open Archives Initiative</a>-ren bidez."
+
+msgid "manager.setup.typeExamples"
+msgstr ""
+"(Adib., Ikerketa historikoa; Kuasi-esperimentala; Literatura-analisia; "
+"Inkesta/Galdeketa)"
+
+msgid "manager.setup.typeMethodApproach"
+msgstr "Mota (metodoa/hurbilketa)"
+
+msgid "manager.setup.typeProvideExamples"
+msgstr "Eman ikerketa mota, metodo eta hurbilketen adibideak"
+
+msgid "manager.setup.uniqueIdentifier"
+msgstr "Identifikatzaile unibokoa"
+
+msgid "manager.setup.uniqueIdentifierDescription"
+msgstr ""
+"Artikuluei eta zenbakiei identifikazio-zenbaki edo -kate bat jarriko zaie, "
+"Digital Object Identifier System (DOI) edo antzeko erregistro-sistema baten "
+"bidez."
+
+msgid "manager.setup.useEditorialReviewBoard"
+msgstr "Aldizkariak Kontseilu editoriala eta Adituen kontseilua izango ditu."
+
+msgid "manager.setup.useThumbnail"
+msgstr "Miniatura"
+
+msgid "manager.setup.useImageTitle"
+msgstr "Irudia"
+
+msgid "manager.setup.userRegistration"
+msgstr "Erabiltzaileen erregistratzea"
+
+msgid "manager.setup.useTextTitle"
+msgstr "Testua"
+
+msgid "manager.statistics.statistics"
+msgstr "Aldizkariaren estatistikak"
+
+msgid "manager.statistics.statistics.articleViews"
+msgstr "Artikuluari egindako bisitak (Egileentzat soilik)"
+
+msgid "manager.statistics.statistics.count.accept"
+msgstr "Onartuak"
+
+msgid "manager.statistics.statistics.count.decline"
+msgstr "Ez onartuak"
+
+msgid "manager.statistics.statistics.count.revise"
+msgstr "Birbidaliak"
+
+msgid "manager.statistics.statistics.daysPerReview"
+msgstr "Ebaluazioa egiteko egunak"
+
+msgid "manager.statistics.statistics.daysToPublication"
+msgstr "Argitaratzeko egunak"
+
+msgid "manager.statistics.statistics.description"
+msgstr ""
+"OJSk ondorengo estatistikak kalkulatzen ditu aldizkari bakoitzari buruz. "
+"\"Ebaluazioa egiteko egunak\" kalkulatzeko, bidalketa-datatik (edo Ebaluazio-"
+"bertsioa izendatzen denetik) Editorearen lehen erabakira arteko denbora "
+"hartzen da, eta onartutako bidalketak \"argitaratzeko egunak\" neurtzeko, "
+"hasierako karga egiten den egunetik argitaratu arteko denbora hartzen da."
+
+msgid "manager.statistics.statistics.itemsPublished"
+msgstr "Artikulu argitaratuak"
+
+msgid "manager.statistics.statistics.makePublic"
+msgstr ""
+"Hautatu Aldizkariari buruz orrian irakurleek ikusiko dituzten elementuak."
+
+msgid "manager.statistics.statistics.note"
+msgstr ""
+"Oharra: Adituek ebaluatutako bidalketen ehunekoen batura ez da beti % 100 "
+"izango, birbidalitako artikuluak onartuak edo ez onartuak izan daitezkeelako "
+"edo oraindik lantzen ari direlako."
+
+msgid "manager.statistics.statistics.numIssues"
+msgstr "Zenbaki argitaratuak"
+
+msgid "manager.statistics.statistics.numSubmissions"
+msgstr "Bidalketa guztiak"
+
+msgid "manager.statistics.statistics.peerReviewed"
+msgstr "Adituek ebaluatuak"
+
+msgid "manager.statistics.statistics.registeredReaders"
+msgstr "Irakurle erregistratuak"
+
+msgid "manager.statistics.statistics.reviewerCount"
+msgstr "Esleipen kopurua"
+
+msgid "manager.statistics.statistics.reviewers"
+msgstr "Ebaluatzaileak"
+
+msgid "manager.statistics.statistics.reviewerScore"
+msgstr "Editorearen puntuazioa"
+
+msgid "manager.statistics.statistics.reviewsPerReviewer"
+msgstr "Ebaluazio kopurua"
+
+msgid "manager.statistics.statistics.selectSections"
+msgstr ""
+"Hautatu aldizkari honen adituen ebaluazioen estatistikak kalkulatzeko atalak."
+
+msgid "manager.statistics.statistics.subscriptions"
+msgstr "Harpidetzak"
+
+msgid "manager.statistics.reports.defaultReport.articleDownloads"
+msgstr "Artikuluaren fitxategiaren deskargak"
+
+msgid "manager.statistics.reports.defaultReport.articleAbstract"
+msgstr "Artikuluaren laburpenaren orri-bistaratzeak"
+
+msgid "manager.statistics.reports.defaultReport.articleAbstractAndDownloads"
+msgstr "Artikuluaren laburpenaren orri-bistaratzeak eta deskargak"
+
+msgid "manager.statistics.reports.defaultReport.journalIndexPageViews"
+msgstr "Aldizkariaren orri nagusiko bistaratzeak"
+
+msgid "manager.statistics.reports.defaultReport.issuePageViews"
+msgstr "Zenbakiaren aurkibidearen orri-bistaratzeak"
+
+msgid "manager.subscriptionPolicies"
+msgstr "Harpidetza-politikak"
+
+msgid "manager.subscriptionPolicies.delayedOpenAccess"
+msgstr "Sarrera libre geroratua"
+
+msgid ""
+"manager.subscriptionPolicies."
+"enableSubscriptionExpiryReminderBeforeMonthsValid"
+msgstr "Erabili horretarako dagoen kontrol-laukia."
+
+msgid "manager.subscriptionPolicies.expiry"
+msgstr "Harpidetzaren amaiera"
+
+msgid "manager.subscriptionPolicies.expiryDescription"
+msgstr ""
+"Harpidetza amaitutakoan, irakurleek ez dute inolako aukerarik izango "
+"harpidetza bidezko edukia ikusteko, edo harpidetza amaitu baino lehenago "
+"argitaratutako lanak ikusteko aukera izango dute."
+
+msgid "manager.subscriptionPolicies.expiryFull"
+msgstr "Erabat amaitu harpidetza"
+
+msgid "manager.subscriptionPolicies.expiryFullDescription"
+msgstr ""
+"Harpidetza amaitutakoan, irakurleek ezingo dute ikusi harpidetza-bidezko "
+"edukirik."
+
+msgid "manager.subscriptionPolicies.expiryPartial"
+msgstr "Zati batean amaitu harpidetza"
+
+msgid "manager.subscriptionPolicies.expiryPartialDescription"
+msgstr ""
+"Harpidetza amaitutakoan, irakurleek ezingo dute ikusi harpidetza bidezko "
+"eduki berririk, baina lehenago argitaratuko lanak ikusi ahal izango dituzte."
+
+msgid "manager.subscriptionPolicies.xMonths"
+msgstr "{$x} hilabete"
+
+msgid "manager.subscriptionPolicies.xWeeks"
+msgstr "{$x} aste"
+
+msgid "manager.subscriptionPolicies.expiryReminderAfterMonths"
+msgstr "Jakinarazi harpidedunei posta elektronikoz, harpidetza iraungi ondoren"
+
+msgid "manager.subscriptionPolicies.expiryReminderAfterWeeks"
+msgstr "Jakinarazi harpidedunei posta elektronikoz, harpidetza iraungi ondoren."
+
+msgid "manager.subscriptionPolicies.expiryReminderBeforeMonths"
+msgstr ""
+"Jakinarazi harpidedunei posta elektronikoz, harpidetza iraungi aurretik."
+
+msgid "manager.subscriptionPolicies.expiryReminderBeforeWeeks"
+msgstr ""
+"Jakinarazi harpidedunei posta elektronikoz, harpidetza iraungi aurretik."
+
+msgid "manager.subscriptionPolicies.expiryReminders"
+msgstr "Harpidetza-amaierako oroigarriak"
+
+msgid "manager.subscriptionPolicies.expiryRemindersDescription"
+msgstr ""
+"Mezu elektroniko automatikoak (OJSren mezu elektroniko prestatuetan daude "
+"eta Aldizkariaren kudeatzaileak edita ditzake) bidal dakizkieke oroigarri "
+"gisa harpidedunei harpidetza amaitu aurretik eta ondoren."
+
+msgid "manager.subscriptionPolicies.expiryRemindersDisabled"
+msgstr ""
+"<strong>Oharra</strong>: Aukera hauek aktibatzeko, gune-administratzaileak "
+"<tt>scheduled_tasks</tt> aukera gaitu behar du konfigurazio-fitxategian. "
+"Funtzionalitate hau erabili ahal izateko, zerbitzari-konfigurazio gehiago "
+"egin beharko dira seguru asko (eta zerbitzari guztietan ezin izango da), OJS "
+"dokumentazioan adierazten den bezala."
+
+msgid "manager.subscriptionPolicies.expirySelectOne"
+msgstr "Hautatu ondorengo aukeretako bat:"
+
+msgid "manager.subscriptionPolicies.htmlInstructions"
+msgstr ""
+"Testu-arean HTML erabil daiteke (letra-tamaina, kolorea, etab. aldatu ahal "
+"izateko), eta \"lerro-jauziak\" <tt>&lt;br&gt;</tt> bezala tratatuta; HTML "
+"editoreak Firefox arakatzaileekin funtzionatzen du."
+
+msgid ""
+"manager.subscriptionPolicies.numMonthsAfterSubscriptionExpiryReminderValid"
+msgstr ""
+"Hautatu baliozko zenbaki bat harpidetza amaitu osteko hilabete kopurua "
+"adierazteko."
+
+msgid ""
+"manager.subscriptionPolicies.numMonthsBeforeSubscriptionExpiryReminderValid"
+msgstr ""
+"Hautatu baliozko zenbaki bat harpidetza amaitu aurreko hilabete kopurua "
+"adierazteko."
+
+msgid ""
+"manager.subscriptionPolicies.numWeeksAfterSubscriptionExpiryReminderValid"
+msgstr ""
+"Hautatu baliozko zenbaki bat harpidetza amaitu osteko aste kopurua "
+"adierazteko."
+
+msgid ""
+"manager.subscriptionPolicies.numWeeksBeforeSubscriptionExpiryReminderValid"
+msgstr ""
+"Hautatu baliozko zenbaki bat harpidetza amaitu aurreko aste kopurua "
+"adierazteko."
+
+msgid "manager.subscriptionPolicies.openAccessNotificationDescription"
+msgstr ""
+"Zenbakia sarrera libreko bihurtzen denean, aurkibidea mezu elektronikoz "
+"jasotzeko aukera izango dute erregistratutako irakurleek."
+
+msgid "manager.subscriptionPolicies.openAccessNotificationDisabled"
+msgstr ""
+"<strong>Oharra</strong>: Aukera hau aktibatzeko, gune-administratzaileak "
+"<tt>scheduled_tasks</tt> aukera gaitu behar du konfigurazio-fitxategian. "
+"Funtzionalitate hau erabili ahal izateko, zerbitzari-konfigurazio gehiago "
+"egin beharko dira seguru asko (eta zerbitzari guztietan ezin izango da), OJS "
+"dokumentazioan adierazten den bezala."
+
+msgid "manager.subscriptionPolicies.onlinePaymentNotifications"
+msgstr "Lineako ordainketaren jakinarazpenak"
+
+msgid "manager.subscriptionPolicies.onlinePaymentNotificationsDescription"
+msgstr ""
+"Posta elektronikoaren jakinarazpen automatizatuak (Aldizkariaren "
+"kudeatzaileek editatu dezakete, OJSren prestatutako mezu elektronikoetan) "
+"bidal daitezke harpidetza-kudeatzailearengana, harpidetzaren lineako "
+"ordainketa amaitu ondoren."
+
+msgid ""
+"manager.subscriptionPolicies."
+"enableSubscriptionOnlinePaymentNotificationPurchaseIndividual"
+msgstr ""
+"Harpidetza-kudeatzaileari harpidetza indibidual baten lineako ordainketaren "
+"berri eman posta elektronikoz."
+
+msgid ""
+"manager.subscriptionPolicies."
+"enableSubscriptionOnlinePaymentNotificationPurchaseInstitutional"
+msgstr ""
+"Harpidetza-kudeatzaileari eman harpidetza instituzional baten lineako "
+"ordainketaren berri posta elektronikoz (gomendatua)."
+
+msgid ""
+"manager.subscriptionPolicies."
+"enableSubscriptionOnlinePaymentNotificationRenewIndividual"
+msgstr ""
+"Harpidetza-kudeatzaileari eman harpidetza indibidual baten lineako "
+"berritzearen berri, posta elektronikoz."
+
+msgid ""
+"manager.subscriptionPolicies."
+"enableSubscriptionOnlinePaymentNotificationRenewInstitutional"
+msgstr ""
+"Harpidetza-kudeatzaileari harpidetza instituzional baten lineako "
+"berritzearen berri eman posta elektronikoz."
+
+msgid ""
+"manager.subscriptionPolicies.onlinePaymentPurchaseInstitutionalDescription"
+msgstr ""
+"<strong>Oharra:</strong>Linean erositako harpidetza instituzionalek "
+"domeinuaren eta IP barrutien onarpena behar dute, baita harpidetza-"
+"kudeatzaileak harpidetza aktibatzea ere."
+
+msgid "manager.subscriptionPolicies.onlinePaymentDisabled"
+msgstr ""
+"<strong>Oharra:</strong> Aukera horiek gaitzeko, aldizkariaren kudeatzaileak "
+"lineako ordainketaren modulua gaitu behar du; besteak beste, harpidetza "
+"egiteko lineako ordainketak, “Irakurle-tarifak” atalaren azpian."
+
+msgid "manager.subscriptionPolicies.openAccessOptions"
+msgstr "Harpidetza bidezko aldizkarien Sarrera libreko aukerak"
+
+msgid "manager.subscriptionPolicies.openAccessOptionsDescription"
+msgstr ""
+"Harpidetza bidezko aldizkariek \"sarrera libre geroratua\" eman dezakete "
+"argitaratzen duten edukiarentzat, edo \"egileen auto-artxibatzea\" onar "
+"dezakete (bi aukera horiek irakurlegoa eta edukiaren aipamenak areagotuko "
+"dituzte)."
+
+msgid "manager.subscriptionPolicies.subscriptionAdditionalInformation"
+msgstr "Harpidetzari buruzko informazioa"
+
+msgid ""
+"manager.subscriptionPolicies.subscriptionAdditionalInformationDescription"
+msgstr ""
+"Harpidetza motak eta tarifak automatikoki azalduko dira Aldizkariari buruz "
+"orriko Harpidetzak izenburuan, Harpidetza-kudeatzailearen izenarekin eta "
+"kontaktu-informazioarekin batera. Harpidetzari buruzko informazio gehiago "
+"ere eman daiteke hemen (ordaintzeko modua edo garapen bideko "
+"herrialdeetakoentzako laguntzak, adibidez)."
+
+msgid "manager.subscriptionPolicies.subscriptionContact"
+msgstr "Harpidetza-kudeatzailea"
+
+msgid "manager.subscriptionPolicies.subscriptionContactDescription"
+msgstr ""
+"Aldizkariari buruz orriko Harpidetzak izenburuan agertzen den kontaktua."
+
+msgid "manager.subscriptionPolicies.subscriptionContactEmailValid"
+msgstr "Idatzi baliozko helbide elektroniko bat."
+
+msgid "manager.subscriptions"
+msgstr "Harpidetzak"
+
+msgid "manager.individualSubscriptions"
+msgstr "Banakako harpidetzak"
+
+msgid "manager.institutionalSubscriptions"
+msgstr "Harpidetza instituzionalak"
+
+msgid "manager.subscriptions.confirmRenew"
+msgstr "Ziur zaude harpidetza hau berritu nahi duzula?"
+
+msgid "manager.subscriptions.confirmDelete"
+msgstr "Ziur zaude harpidetza hau ezabatu nahi duzula?"
+
+msgid "manager.subscriptions.summary"
+msgstr "Harpidetzen laburpena"
+
+msgid "manager.subscriptions.create"
+msgstr "Sortu harpidetza berri bat"
+
+msgid "manager.subscriptions.createTitle"
+msgstr "Sortu"
+
+msgid "manager.subscriptions.renew"
+msgstr "Berritu"
+
+msgid "manager.subscriptions.dateEnd"
+msgstr "Amaitu"
+
+msgid "manager.subscriptions.dateEndSearch"
+msgstr "Amaiera-data"
+
+msgid "manager.subscriptions.dateStart"
+msgstr "Hasi"
+
+msgid "manager.subscriptions.dateStartSearch"
+msgstr "Hasiera-data"
+
+msgid "manager.subscriptions.domain"
+msgstr "Domeinua"
+
+msgid "manager.subscriptions.edit"
+msgstr "Editatu harpidetza"
+
+msgid "manager.subscriptions.editTitle"
+msgstr "Editatu"
+
+msgid "manager.subscriptions.withStatus"
+msgstr "Egoerarekin"
+
+msgid "manager.subscriptions.allStatus"
+msgstr "Guztia"
+
+msgid "manager.subscriptions.form.status"
+msgstr "Egoera"
+
+msgid "manager.subscriptions.form.statusRequired"
+msgstr "Harpidetza-egoera bat zehaztu behar da."
+
+msgid "manager.subscriptions.form.statusValid"
+msgstr "Mesedez, hautatu baliozko harpidetza-egoera bat."
+
+msgid "manager.subscriptions.form.typeId"
+msgstr "Harpidetza mota"
+
+msgid "manager.subscriptions.form.typeIdRequired"
+msgstr "Harpidetza mota bat zehaztu behar da."
+
+msgid "manager.subscriptions.form.typeIdValid"
+msgstr "Hautatu baliozko harpidetza mota bat."
+
+msgid "manager.subscriptions.form.institution"
+msgstr "Erakundea"
+
+msgid "manager.subscriptions.form.institutionIdValid"
+msgstr "Mesedez, hautatu baliozko erakunde bat."
+
+msgid "manager.subscriptions.form.dateStart"
+msgstr "Hasiera-data"
+
+msgid "manager.subscriptions.form.dateStartRequired"
+msgstr "Harpidetzaren hasiera-data zehaztu behar da."
+
+msgid "manager.subscriptions.form.dateStartValid"
+msgstr "Hautatu baliozko hasiera-data bat."
+
+msgid "manager.subscriptions.form.dateEnd"
+msgstr "Amaiera-data"
+
+msgid "manager.subscriptions.form.dateEndRequired"
+msgstr "Harpidetzaren amaiera-data zehaztu behar da."
+
+msgid "manager.subscriptions.form.dateStartEmpty"
+msgstr ""
+"Harpidetza-mota hau ez da iraungitzen; mesedez, ez zehaztu hasiera-datarik."
+
+msgid "manager.subscriptions.form.dateEndEmpty"
+msgstr ""
+"Harpidetza-mota hau ez da iraungitzen; mesedez, ez zehaztu amaiera-datarik."
+
+msgid "manager.subscriptions.form.dateEndValid"
+msgstr "Hautatu baliozko amaiera-data bat."
+
+msgid "manager.subscriptions.form.userProfileInstructions"
+msgstr ""
+"Oharra: azpiko aldaketa guztiak erabiltzailearen sistemaren profilekoak dira."
+
+msgid "manager.subscriptions.form.userId"
+msgstr "Erabiltzailea"
+
+msgid "manager.subscriptions.form.userContact"
+msgstr "Kontaktua"
+
+msgid "manager.subscriptions.form.userIdRequired"
+msgstr "Erabiltzaile bat zehaztu behar da."
+
+msgid "manager.subscriptions.form.userIdValid"
+msgstr "Hautatu baliozko erabiltzaile bat."
+
+msgid "manager.subscriptions.form.userCountryValid"
+msgstr "Mesedez, hautatu baliozko herrialde bat."
+
+msgid "manager.subscriptions.form.notifyEmail"
+msgstr ""
+"Bidali erabiltzaileari mezu elektroniko bat bere erabiltzaile-izenarekin eta "
+"harpidetza-datuekin."
+
+msgid "manager.subscriptions.form.notifyEmailValid"
+msgstr "Erabili horretarako dagoen kontrol-laukia."
+
+msgid "manager.subscriptions.form.membership"
+msgstr "Kidea"
+
+msgid "manager.subscriptions.form.referenceNumber"
+msgstr "Erreferentzia-zenbakia"
+
+msgid "manager.subscriptions.form.membershipInstructions"
+msgstr ""
+"Sartu kidetzari buruzko informazioa harpidetza motak harpideduna elkarte edo "
+"erakunde batekoa izatea eskatzen badu."
+
+msgid "manager.subscriptions.form.membershipRequired"
+msgstr "Hautatutako harpidetza motak kideei buruzko informazioa eskatzen du."
+
+msgid "manager.subscriptions.form.notes"
+msgstr "Oharrak"
+
+msgid "manager.subscriptions.form.domain"
+msgstr "Domeinua"
+
+msgid "manager.subscriptions.form.institutionName"
+msgstr "Erakundearen izena"
+
+msgid "manager.subscriptions.form.institutionNameRequired"
+msgstr "Erakunde baten izena zehaztu behar da."
+
+msgid "manager.subscriptions.form.institutionMailingAddress"
+msgstr "Posta-helbidea"
+
+msgid "manager.subscriptions.form.domainInstructions"
+msgstr ""
+"Hemen domeinua sartzen bada, IP barrutia aukerakoa da.<br />Domeinu-izenak "
+"dira baliozko balioak (adib., lib.sfu.ca)."
+
+msgid "manager.subscriptions.form.domainIPRangeRequired"
+msgstr ""
+"Hautatutako harpidetza motak domeinu eta/edo IP barruti bat eskatzen du "
+"harpidetza autentifikatzeko."
+
+msgid "manager.subscriptions.form.domainValid"
+msgstr "Sartu baliozko domeinu bat."
+
+msgid "manager.subscriptions.form.ipRange"
+msgstr "IP barrutia"
+
+msgid "manager.subscriptions.form.ipRangeItem"
+msgstr "&#8226;"
+
+msgid "manager.subscriptions.form.ipRangeInstructions"
+msgstr ""
+"Hemen IP barrutia sartzen bada, domeinua aukerakoa da.<br /> Baliozkoak dira:"
+" IP helbide bat (adib., 142.58.103.1), IP barruti bat (adib., 142.58.103.1 - "
+"142.58.103.4), izartxodun (*) IP barruti bat (adib., 142.58.*.*), eta CIDR "
+"duen IP barruti bat (adib., 142.58.100.0/24)."
+
+msgid "manager.subscriptions.form.ipRangeValid"
+msgstr "Sartu baliozko IP barruti bat."
+
+msgid "manager.subscriptions.form.deleteIpRange"
+msgstr "Ezabatu"
+
+msgid "manager.subscriptions.form.addIpRange"
+msgstr "Gehitu"
+
+msgid "manager.subscriptions.form.saveAndCreateAnother"
+msgstr "Gorde eta sortu beste bat"
+
+msgid "manager.subscriptions.form.subscriptionContactRequired"
+msgstr ""
+"Erabiltzaileari jakinarazpen-mezuak bidaltzeko, harpidetza-kontaktuaren "
+"izena eta helbide elektronikoa zehaztu behar dira aldizkariaren "
+"konfigurazioan."
+
+msgid "manager.subscriptions.form.subscriptionExists"
+msgstr "Erabiltzaile horrek badu harpidetza bat aldizkari honetan."
+
+msgid "manager.subscriptions.form.typeRequired"
+msgstr ""
+"Harpidetza motaren bat sortu behar da harpidetza berriak egin baino lehen."
+
+msgid "manager.subscriptions.form.institutionRequired"
+msgstr "Harpidetza berriak egin aurretik erakunde bat sortu behar da."
+
+msgid "manager.subscriptions.ipRange"
+msgstr "IP barrutia"
+
+msgid "manager.subscriptions.membership"
+msgstr "Kidea"
+
+msgid "manager.subscriptions.referenceNumber"
+msgstr "Erreferentzia-zenbakia"
+
+msgid "manager.subscriptions.notes"
+msgstr "Oharrak"
+
+msgid "manager.subscriptions.noneCreated"
+msgstr "Harpidetzarik ez"
+
+msgid "manager.subscriptions.selectContact"
+msgstr "Hautatu harpidetza-kontaktua"
+
+msgid "manager.subscriptions.selectUser"
+msgstr "Hautatu erabiltzailea"
+
+msgid "manager.subscriptions.selectSubscriber.desc"
+msgstr ""
+"Harpidedunen pribilegioak automatikoki ematen zaizkie Aldizkariaren "
+"kudeatzaileei, Editoreei, Ataleko editoreei, Maketatzaileei, Zuzentzaileei "
+"eta Proba-Zuzentzaileei."
+
+msgid "manager.subscriptions.select"
+msgstr "Inskribatu harpideduna"
+
+msgid "manager.subscriptions.subscriptionCreatedSuccessfully"
+msgstr "Harpidetza ondo sortu da."
+
+msgid "manager.subscriptions.subscriptionType"
+msgstr "Harpidetza mota"
+
+msgid "manager.subscriptions.user"
+msgstr "Erabiltzailea"
+
+msgid "manager.subscriptions.contact"
+msgstr "Kontaktuaren izena"
+
+msgid "manager.subscriptions.institutionName"
+msgstr "Erakundearen izena"
+
+msgid "manager.subscriptionTypes"
+msgstr "Harpidetza motak"
+
+msgid "manager.subscriptionTypes.confirmDelete"
+msgstr ""
+"Kontuz! Mota honetako harpidetza guztiak ezabatu egingo dira. Ziur zaude "
+"harpidetza mota hau ezabatu nahi duzula?"
+
+msgid "manager.subscriptionTypes.cost"
+msgstr "Kostua"
+
+msgid "manager.subscriptionTypes.subscriptions"
+msgstr "Harpidetzak"
+
+msgid "manager.subscriptionTypes.individual"
+msgstr "Indibiduala"
+
+msgid "manager.subscriptionTypes.institutional"
+msgstr "Instituzionala"
+
+msgid "manager.subscriptionTypes.create"
+msgstr "Sortu harpidetza mota berria"
+
+msgid "manager.subscriptionTypes.createTitle"
+msgstr "Sortu"
+
+msgid "manager.subscriptionTypes.duration"
+msgstr "Iraupena"
+
+msgid "manager.subscriptionTypes.edit"
+msgstr "Editatu Harpidetza mota"
+
+msgid "manager.subscriptionTypes.editTitle"
+msgstr "Editatu"
+
+msgid "manager.subscriptionTypes.form.cost"
+msgstr "Kostua"
+
+msgid "manager.subscriptionTypes.form.costInstructions"
+msgstr ""
+"Idatzi zenbaki bat (adib., 40 edo 40,00) baina ikurrik gabe (adib., €, $)."
+
+msgid "manager.subscriptionTypes.form.costNumeric"
+msgstr "Kostua zenbaki positibo bat izan behar da."
+
+msgid "manager.subscriptionTypes.form.costRequired"
+msgstr "Kostua zehaztu behar da."
+
+msgid "manager.subscriptionTypes.form.currency"
+msgstr "Moneta"
+
+msgid "manager.subscriptionTypes.form.currencyRequired"
+msgstr "Moneta zehaztu behar da."
+
+msgid "manager.subscriptionTypes.form.currencyValid"
+msgstr "Hautatu baliozko moneta bat."
+
+msgid "manager.subscriptionTypes.form.description"
+msgstr "Azalpena"
+
+msgid "manager.subscriptionTypes.form.nonExpiring.expiresAfter"
+msgstr "Iraungitze-data"
+
+msgid "manager.subscriptionTypes.form.nonExpiring.months"
+msgstr "hilabeteak (adib., 12)"
+
+msgid "manager.subscriptionTypes.form.nonExpiring.neverExpires"
+msgstr "Ez da iraungitzen"
+
+msgid "manager.subscriptionTypes.form.nonExpiringValid"
+msgstr "Mesedez, erabili ematen diren aukerak."
+
+msgid "manager.subscriptionTypes.form.duration"
+msgstr "Iraupena"
+
+msgid "manager.subscriptionTypes.form.durationInstructions"
+msgstr "Zenbat hilabetekoa den harpidetza (adib., 12)."
+
+msgid "manager.subscriptionTypes.form.durationNumeric"
+msgstr "Iraupena zenbaki positibo bat izan behar da."
+
+msgid "manager.subscriptionTypes.form.durationRequired"
+msgstr "Iraupena zehaztu behar da."
+
+msgid "manager.subscriptionTypes.form.format"
+msgstr "Formatua"
+
+msgid "manager.subscriptionTypes.form.formatRequired"
+msgstr "Harpidetza motaren formatua zehaztu behar da."
+
+msgid "manager.subscriptionTypes.form.formatValid"
+msgstr "Hautatu baliozko formatu bat."
+
+msgid "manager.subscriptionTypes.form.subscriptions"
+msgstr "Harpidetzak"
+
+msgid "manager.subscriptionTypes.form.individual"
+msgstr "Indibiduala (erabiltzaileak saioa hastearekin balioztatzen dira)"
+
+msgid "manager.subscriptionTypes.form.institutional"
+msgstr ""
+"Harpidetza instituzionala (erabiltzaileak domeinu edo IP helbidearen bidez "
+"baliozkotzen dira)"
+
+msgid "manager.subscriptionTypes.form.institutionalValid"
+msgstr "Erabili horretarako dagoen kontrol-laukia."
+
+msgid "manager.subscriptionTypes.form.membership"
+msgstr ""
+"Harpidetzek kidetzari buruzko informazioa behar dute (adibidez, elkarte, "
+"erakunde, partzuergo, etab.)"
+
+msgid "manager.subscriptionTypes.form.membershipValid"
+msgstr "Erabili horretarako dagoen kontrol-laukia."
+
+msgid "manager.subscriptionTypes.form.options"
+msgstr "Aukerak"
+
+msgid "manager.subscriptionTypes.form.public"
+msgstr ""
+"Harpidetza mota ez da publikoki ikusiko (adib., Aldizkariari buruz orriko "
+"Harpidetzak izenburuan)."
+
+msgid "manager.subscriptionTypes.form.publicValid"
+msgstr "Erabili horretarako dagoen kontrol-laukia."
+
+msgid "manager.subscriptionTypes.form.saveAndCreateAnotherType"
+msgstr "Gorde eta sortu beste bat"
+
+msgid "manager.subscriptionTypes.form.typeName"
+msgstr "Motaren izena"
+
+msgid "manager.subscriptionTypes.form.typeNameExists"
+msgstr "Izen hori beste harpidetza mota batena da."
+
+msgid "manager.subscriptionTypes.form.typeNameRequired"
+msgstr "Harpidetza motaren izena eman behar da."
+
+msgid "manager.subscriptionTypes.name"
+msgstr "Harpidetza mota"
+
+msgid "manager.subscriptionTypes.noneCreated"
+msgstr "Ez da harpidetza motarik sortu."
+
+msgid "manager.subscriptionTypes.subscriptionTypeCreatedSuccessfully"
+msgstr "Harpidetza mota ondo sortu da."
+
+msgid "manager.navigationMenus.subscriptions.description"
+msgstr ""
+"Eskaintzen dituzun harpidetzak deskribatzen dituen orri baterako esteka."
+
+msgid "manager.navigationMenus.mySubscriptions.description"
+msgstr ""
+"Bisitariaren uneko eta iraganeko harpidetzak deskribatzen dituen orri "
+"baterako esteka."
+
+msgid "manager.navigationMenus.mySubscriptions.conditionalWarning"
+msgstr "Esteka hau bisitari batek saioa hasten duenean bakarrik bistaratuko da."
+
+msgid "manager.setup.categories"
+msgstr "Kategoriak"
+
+msgid "manager.setup.categories.description"
+msgstr ""
+"Aukeratu kategoria egokienak goian zerrendatutako multzotik. Irakurleek "
+"kategoriaren arabera arakatu ahal izango dute aldizkari osotik."
+
+msgid "grid.category.path"
+msgstr "Helbidea"
+
+msgid "grid.action.addSection"
+msgstr "Gehitu atala"
+
+msgid "manager.setup.section.description"
+msgstr ""
+"Aldizkari baten argitaratutako zenbakietako artikuluak ataletan antolatzen "
+"dira, normalean gaiaren edo eduki motaren arabera (adibidez, berrikuspen "
+"artikuluak, ikerketak, etab.)."
+
+msgid "settings.roles.gridDescription"
+msgstr ""
+"Rolak aldizkariko erabiltzaile-taldeak dira, eta aldizkariaren barruko "
+"baimen-maila desberdinak eta lotutako lan-fluxuak eskuratzen dituzte. Bost "
+"baimen-maila desberdin daude: Aldizkariaren kudeatzaileek aldizkariko guztia "
+"eskura dezakete (eduki eta ezarpen guztiak); Ataleko editoreek esleitutako "
+"eduki guztietarako sarbide osoa dute; Aldizkariaren laguntzaileek editore "
+"batek esplizituki esleitutako bidalketa guztietarako sarbide mugatua dute; "
+"Ebaluatzaileek berrikusteko esleitu zaizkien bidalketak ikusi eta berrikusi "
+"ditzakete; eta Egileek beren bidalketei buruzko informazio-kopuru mugatu bat "
+"ikusi eta harekin elkarreragin dezakete. Horrez gain, rolak bost fase "
+"desberdinetan sar daitezke: Bidalketa, Barne-berrikuspena, Berrikuspena, "
+"Edizioa eta Ekoizpena."
+
+msgid "manager.publication.library"
+msgstr "Argitaletxearen liburutegia"
+
+msgid "manager.setup.copyrightYearBasis"
+msgstr "Jarri artikulu berriaren egile-eskubideen urtea honetan oinarrituta"
+
+msgid "manager.setup.copyrightYearBasis.article"
+msgstr ""
+"Artikulua: urte lehenetsia artikuluaren argitaratze-datatik aterako da, "
+"\"argitaratu ahala\" moduan bezala."
+
+msgid "manager.setup.copyrightYearBasis.issue"
+msgstr "Zenbakia: lehenetsitako urtea alearen argitalpen-datatik hartuko da."
+
+msgid "manager.setup.resetPermissions"
+msgstr "Berrezarri artikuluaren baimenak"
+
+msgid "manager.setup.resetPermissions.confirm"
+msgstr ""
+"Ziur zaude artikulu guztien baimen-datuak berrezarri nahi dituzula? Ekintza "
+"hau ezin da desegin."
+
+msgid "manager.setup.resetPermissions.description"
+msgstr ""
+"Kendu argitaratutako artikulu guztien pribatutasuna-adierazpena eta "
+"lizentzia informazioa, aldizkariaren uneko ezarpen lehenetsietara itzuliz. "
+"Honek artikuluei erantsitako aurreko egile-eskubideak eta lizentzia "
+"informazio guztia behin betiko ezabatuko du. Kasu batzuetan, baliteke legez "
+"baimenik ez izatea beste lizentzia batekin argitaratutako lana berriro "
+"lizentziatzeko. Mesedez, kontuz ibili tresna hau erabiltzean eta kontsultatu "
+"legezko aditu bati zure aldizkarian argitaratutako artikuluen gainean zer "
+"eskubide dituzun ziur ez bazaude."
+
+msgid "manager.setup.resetPermissions.success"
+msgstr "Artikuluaren baimenak behar bezala berrezarri dira."
+
+msgid "grid.genres.title.short"
+msgstr "Osagaiak"
+
+msgid "grid.genres.title"
+msgstr "Artikuluaren osagaiak"
+
+msgid "grid.genres.description"
+msgstr ""
+"Osagai hauek fitxategiak izendatzeko erabiltzen dira eta fitxategiak "
+"igotzean goitibeherako menu batean aurkezten dira. ## ikurrarekin "
+"izendatutako generoek erabiltzaileari fitxategia 99Z bidalketa osoarekin edo "
+"osagai jakin batekin zenbakiaren bidez lotzeko aukera ematen diote ("
+"adibidez, 02)."
+
+msgid "plugins.importexport.common.settings"
+msgstr "Ezarpenak"
+
+msgid "plugins.importexport.common.settings.DOIPluginSettings"
+msgstr "DOI pluginaren ezarpenak"
+
+msgid "plugins.importexport.common.export.articles"
+msgstr "Artikuluak"
+
+msgid "plugins.importexport.common.export.issues"
+msgstr "Zenbakiak"
+
+msgid "plugins.importexport.common.export.representations"
+msgstr "Galeradak"
+
+msgid "plugins.importexport.common.missingRequirements"
+msgstr "Pluginaren eskakizunak ez dira betetzen"
+
+msgid "plugins.importexport.common.error.DOIsNotAvailable"
+msgstr ""
+"Plugin hau erabiltzeko, joan \"Identifikatzaile publikoa\" plugin-"
+"kategoriara, gaitu eta konfiguratu DOI plugina eta zehaztu baliozko DOI "
+"aurrizki bat bertan."
+
+msgid "plugins.importexport.common.error.pluginNotConfigured"
+msgstr "Plugina ez dago guztiz konfiguratuta."
+
+msgid "plugins.importexport.common.error.noDOIContentObjects"
+msgstr ""
+"DOI identifikatzaile publikoaren pluginean ez da argitalpen-objekturik "
+"hautatu DOI esleipenerako, beraz, ez dago gordailu edo esportazio aukerarik "
+"plugin honetan."
+
+msgid "plugins.importexport.common.settings.form.password"
+msgstr "Pasahitza"
+
+msgid "plugins.importexport.common.filter.issue"
+msgstr "Edozein zenbaki"
+
+msgid "plugins.importexport.common.status.any"
+msgstr "Edozein egoera"
+
+msgid "plugins.importexport.common.status.notDeposited"
+msgstr "Gordailutu gabea"
+
+msgid "plugins.importexport.common.status.markedRegistered"
+msgstr "Erregistratuta markatuta"
+
+msgid "plugins.importexport.common.status.registered"
+msgstr "Erregistratuta"
+
+msgid "plugins.importexport.common.action"
+msgstr "Ekintza"
+
+msgid "plugins.importexport.common.action.export"
+msgstr "Esportatu"
+
+msgid "plugins.importexport.common.action.markRegistered"
+msgstr "Markatu erregistratuta"
+
+msgid "plugins.importexport.common.action.register"
+msgstr "Erregistratu"
+
+msgid "plugins.importexport.common.error.noObjectsSelected"
+msgstr "Ez da objekturik hautatu."
+
+msgid "plugins.importexport.common.error.validation"
+msgstr "Ezin izan dira bihurtu hautatutako objektuak."
+
+msgid "plugins.importexport.common.invalidXML"
+msgstr "XML baliogabea:"
+
+msgid "plugins.importexport.common.export.error.outputFileNotWritable"
+msgstr "{$param} irteerako fitxategia ez da editagarria."
+
+msgid "plugins.importexport.common.export.error.inputFileNotReadable"
+msgstr "{$param} sarrera-fitxategia ezin da irakurri."
+
+msgid "plugins.importexport.common.register.error.mdsError"
+msgstr ""
+"Erregistroa ez da zuzena izan! DOIen erregistro-zerbitzariak errore bat eman "
+"du: '{$param}'."
+
+msgid "plugins.importexport.common.register.success"
+msgstr "Erregistroa ongi burutu da!"
+
+msgid "plugins.importexport.common.validation.success"
+msgstr "Baliozkotzea zuzena izan da!"
+
+msgid "plugins.importexport.common.validation.fail"
+msgstr "Baliozkotzeak huts egin du."
+
+msgid "plugins.importexport.common.senderTask.warning.noDOIprefix"
+msgstr "DOI aurrizkia falta da {$path} helbidea duen aldizkariarentzat."
+
+msgid "plugins.importexport.common.error.unknownObjects"
+msgstr "Zehaztutako objektuak ezin izan dira aurkitu."
+
+msgid "manager.setup.notifications.copyPrimaryContact"
+msgstr ""
+"Bidali kopia bat aldizkariaren ezarpenetan identifikatu den kontaktu "
+"nagusiari."
+
+msgid "stats.contextStats"
+msgstr "Aldizkariaren estatistikak"
+
+msgid "stats.context.tooltip.text"
+msgstr "Aldizkariaren aurkibide-orria ikusten duten bisitari-kopurua."
+
+msgid "stats.context.tooltip.label"
+msgstr "Aldizkariaren estatistikei buruz"
+
+msgid "stats.context.downloadReport.description"
+msgstr ""
+"Deskargatu CSV/Excel kalkulu-orri bat, ondorengo parametroekin bat datozen "
+"aldizkariaren erabilera-estatistikekin."
+
+msgid "stats.context.downloadReport.downloadContext.description"
+msgstr "Aldizkariaren aurkibide-orriaren bistaratze kopurua."
+
+msgid "stats.context.downloadReport.downloadContext"
+msgstr "Deskargatu aldizkaria"
+
+msgid "stats.issueStats"
+msgstr "Zenbakiaren estatistikak"
+
+msgid "stats.issues.details"
+msgstr "Bistaratzeak eta deskargak"
+
+msgid "stats.issues.searchIssueDescription"
+msgstr "Bilatu izenburua, bolumena eta zenbakia"
+
+msgid "stats.issues.none"
+msgstr ""
+"Ez da aurkitu parametro horiekin bat datorren erabilera-estatistikarik duen "
+"zenbakirik."
+
+msgid "stats.issues.downloadReport.description"
+msgstr ""
+"Deskargatu CSV/Excel kalkulu-orri bat, ondorengo parametroekin bat datozen "
+"zenbakien erabilera-estatistikekin."
+
+msgid "stats.issues.downloadReport.downloadIssues.description"
+msgstr ""
+"Aurkibidearen bistaratze-kopurua eta galeraden deskarga-kopurua, zenbaki "
+"bakoitzeko."
+
+msgid "stats.issues.downloadReport.downloadIssues"
+msgstr "Deskargatu zenbakiak"
+
+msgid "stats.issues.countOfTotal"
+msgstr "{$total}-etik {$count} zenbakiak"
+
+msgid "stats.issues.tooltip.label"
+msgstr "Zenbakiaren estatistikei buruz"
+
+msgid "stats.issues.tooltip.text"
+msgstr ""
+"<strong>Bistaratzeak</strong>: Zenbakiaren edukien taula ikusten duten "
+"bisitari kopurua. <br><strong>Deskargak</strong>: Zenbakiaren galeradaren "
+"deskarga-kopurua, baldin badago."
+
+msgid "stats.publicationStats"
+msgstr "Artikuluaren estatistikak"
+
+msgid "stats.publications.details"
+msgstr "Artikuluaren xehetasunak"
+
+msgid "stats.publications.none"
+msgstr ""
+"Ez da aurkitu parametro horiekin bat datorren erabilera-estatistikarik duen "
+"artikulurik."
+
+msgid "stats.publications.totalAbstractViews.timelineInterval"
+msgstr "Laburpenaren bistaratze guztiak dataren arabera"
+
+msgid "stats.publications.totalGalleyViews.timelineInterval"
+msgstr "Fitxategiaren bistaratze guztiak dataren arabera"
+
+msgid "stats.publications.countOfTotal"
+msgstr "{$total} artikulutik {$count}"
+
+msgid "stats.publications.abstracts"
+msgstr "Laburpena"
+
+msgid "stats.publications.galleys"
+msgstr "Fitxategiak"
+
+msgid "stats.publications.downloadReport.description"
+msgstr ""
+"Deskargatu CSV/Excel kalkulu-orri bat, ondorengo parametroekin bat datozen "
+"artikuluen erabilera-estatistikekin."
+
+msgid "stats.publications.downloadReport.downloadSubmissions"
+msgstr "Jaitsi artikuluak"
+
+msgid "stats.publications.downloadReport.downloadSubmissions.description"
+msgstr ""
+"Artikulu bakoitzerako laburpenen bistaratze eta fitxategien deskarga kopurua."
+
+msgid "manager.setup.notifications.copySubmissionAckPrimaryContact.description"
+msgstr ""
+"Bidali bidalketaren baieztapen-mezu elektronikoaren kopia aldizkari honen "
+"kontaktu nagusiari."
+
+msgid ""
+"manager.setup.notifications.copySubmissionAckPrimaryContact.disabled."
+"description"
+msgstr ""
+"Ez da kontaktu nagusirik definitu aldizkari honetarako. Kontaktu nagusi bat "
+"sar dezakezu <a href=\"{$url}\">aldizkariaren ezarpenetan</a>."
+
+msgid "plugins.importexport.native.export.issues.results"
+msgstr "Esportatu zenbakiaren emaitzak"
+
+msgid "plugins.importexport.issue.cli.display"
+msgstr "\"{$issueId}\" - \"{$issueIdentification}\""
+
+msgid "plugins.importexport.issueGalleys.exportFailed"
+msgstr "Prozesuak huts egin du zenbakiaren galeradak aztertzean"
+
+msgid "emailTemplate.variable.context.contextName"
+msgstr "Aldizkariaren izena"
+
+msgid "emailTemplate.variable.context.contextUrl"
+msgstr "Aldizkariaren hasierako orriaren URLa"
+
+msgid "emailTemplate.variable.context.contactName"
+msgstr "Aldizkariaren kontaktu nagusiaren izena"
+
+msgid "emailTemplate.variable.context.contextAcronym"
+msgstr "Aldizkariaren inizialak"
+
+msgid "emailTemplate.variable.context.contextSignature"
+msgstr "Aldizkariaren sinadura mezu elektroniko automatizatuetarako"
+
+msgid "emailTemplate.variable.context.contactEmail"
+msgstr "Aldizkariaren kontaktu nagusiaren posta elektronikoa"
+
+msgid "emailTemplate.variable.context.mailingAddress"
+msgstr "Aldizkariaren posta-helbidea"
+
+msgid "emailTemplate.variable.queuedPayment.itemName"
+msgstr "Ordainketa-motaren izena"
+
+msgid "emailTemplate.variable.queuedPayment.itemCost"
+msgstr "Ordainketaren zenbatekoa"
+
+msgid "emailTemplate.variable.queuedPayment.itemCurrencyCode"
+msgstr "Ordainketaren zenbatekoaren moneta, adibidez, USD"
+
+msgid "emailTemplate.variable.site.siteTitle"
+msgstr "Webgunearen izena aldizkari bat baino gehiago ostatatzen denean"
+
+msgid "emailTemplate.variable.subscription.subscriberDetails"
+msgstr ""
+"Harpidedunaren izena, afiliazioa, telefono zenbakia eta helbide elektronikoa"
+
+msgid "emailTemplate.variable.subscription.subscriptionSignature"
+msgstr "Harpidetza-kudeatzailearen harremanetarako datuak"
+
+msgid "emailTemplate.variable.subscription.subscriptionUrl"
+msgstr "Harpidetza-orriaren URLa"
+
+msgid "emailTemplate.variable.subscription.expiryDate"
+msgstr "Harpidetza amaitzen den data"
+
+msgid "emailTemplate.variable.subscription.subscriptionType"
+msgstr "Harpidetza-motaren, izenaren, iraupenaren eta kostuaren laburpena"
+
+msgid "emailTemplate.variable.subscription.membership"
+msgstr "Harpidedunaren kidetzari buruzko informazioa"
+
+msgid "emailTemplate.variable.subscription.institutionName"
+msgstr "Harpidedun den erakundearen izena"
+
+msgid "emailTemplate.variable.subscription.institutionMailingAddress"
+msgstr "Harpidedun den erakundearen posta-helbidea"
+
+msgid "emailTemplate.variable.subscription.domain"
+msgstr "Harpidetza honen IP helbide baliozkoen domeinu-izena"
+
+msgid "emailTemplate.variable.subscription.ipRanges"
+msgstr "Harpidetza honetarako IP barruti baliozkoak"
+
+msgid "emailTemplate.variable.queuedPaymentUrl"
+msgstr "Egileak ordainketa egin dezakeen orriaren URLa"
+
+msgid "emailTemplate.variable.submissionGuidelinesUrl"
+msgstr "Bidalketa-jarraibideen URLa"
+
+msgid "emailTemplate.variable.statisticsReportNotify.publicationStatsLink"
+msgstr "Argitaratutako artikuluen estatistika-orrirako esteka"
+
+msgid "emailTemplate.variable.issueId"
+msgstr "Zenbakiaren IDa"
+
+msgid "mailable.statisticsReportNotify.description"
+msgstr ""
+"Mezu elektroniko hau automatikoki bidaltzen zaie hilero editoreei eta "
+"aldizkariaren kudeatzaileei, sistemaren osasunaren ikuspegi orokorra emateko."
+
+msgid "mailable.validateEmailContext.name"
+msgstr "Baliozkotu posta elektronikoa (aldizkariaren erregistroa)"
+
+msgid "mailable.validateEmailContext.description"
+msgstr ""
+"Mezu elektroniko hau automatikoki bidaltzen zaio erabiltzaile berri bati "
+"aldizkarian izena ematen duenean, ezarpenek helbide elektronikoa "
+"baliozkotzea eskatzen dutenean."
+
+msgid "doi.displayName"
+msgstr "DOI"
+
+msgid "doi.description"
+msgstr ""
+"Plugin honek OJSko zenbakiei, artikuluei eta galeradei Objektu Digitalen "
+"Identifikatzaileak (DOI) esleitzeko aukera ematen du."
+
+msgid "doi.readerDisplayName"
+msgstr "DOI"
+
+msgid "doi.manager.displayName"
+msgstr "DOIak"
+
+msgid "doi.manager.settings.description"
+msgstr ""
+"Mesedez, konfiguratu DOI plugina OJSn DOIak kudeatu eta erabili ahal izateko:"
+
+msgid "doi.manager.settings.explainDois"
+msgstr ""
+"Hautatu Objektu Digitalen Identifikatzaileak (DOI) esleituta izango dituzten "
+"argitalpen-objektuak:"
+
+msgid "doi.manager.settings.enableRepresentationDoi"
+msgstr "Artikuluaren galeradak"
+
+msgid "doi.manager.settings.galleysWithDescription"
+msgstr "Artikuluaren galeradak, hala nola argitaratutako PDF bat"
+
+msgid "doi.manager.settings.doiPrefix"
+msgstr "DOI aurrizkia"
+
+msgid "doi.manager.settings.doiPrefixPattern"
+msgstr "DOI aurrizkia nahitaezkoa da eta 10.xxxx formatuan egon behar du."
+
+msgid "doi.manager.settings.doiSuffixPattern"
+msgstr ""
+"Sartu atzizki-eredu pertsonalizatu bat argitalpen-mota bakoitzerako. Atzizki-"
+"eredu pertsonalizatuak sinbolo hauek erabil ditzake atzizki bat sortzeko:"
+"<br><br> <code>%j</code> Aldizkariaren inizialak<br> <code>%v</code> "
+"Zenbakiaren-bolumena<br> <code>%i</code> Zenbakia<br> <code>%Y</code> "
+"Zenbakiaren urtea<br> <code>%a</code> Artikuluaren IDa<br> <code>%g</code> "
+"Galerada IDa<br> <code>%f</code> Fitxategiaren IDa<br> <code>%p</code> "
+"Orrialde-zenbakia<br> <code>%x</code> Identifikatzaile "
+"pertsonalizatua<br><br> Kontuan izan atzizki-eredu pertsonalizatuek arazoak "
+"sortzen dituztela DOIak sortzeko eta gordailutzeko. Atzizki-eredu "
+"pertsonalizatu bat erabiltzean, egiaztatu arretaz editoreek DOIak sor "
+"ditzaketela eta Crossref bezalako erregistro-agentzia batean gordailutu "
+"ditzaketela. "
+
+msgid "doi.manager.settings.doiSuffixPattern.example"
+msgstr ""
+"Adibidez, vol%viss%ipp%p-k honelako DOI bat sor dezake: 10.1234/vol3iss2pp230"
+
+msgid "doi.manager.settings.doiSuffixPattern.issues"
+msgstr "zenbakientzat"
+
+msgid "doi.manager.settings.doiSuffixPattern.submissions"
+msgstr "artikuluentzat"
+
+msgid "doi.manager.settings.doiSuffixPattern.representations"
+msgstr "galeradentzat"
+
+msgid "doi.manager.settings.doiIssueSuffixPatternRequired"
+msgstr "Mesedez, sartu DOI atzizkiaren eredua zenbakietarako."
+
+msgid "doi.manager.settings.doiSubmissionSuffixPatternRequired"
+msgstr "Mesedez, sartu DOI atzizkiaren eredua artikuluetarako."
+
+msgid "doi.manager.settings.doiRepresentationSuffixPatternRequired"
+msgstr "Mesedez, sartu DOI atzizkiaren eredua galeradetarako."
+
+msgid "doi.manager.settings.doiReassign"
+msgstr "Berriro esleitu DOIak"
+
+msgid "doi.manager.settings.doiReassign.description"
+msgstr ""
+"DOI konfigurazioa aldatzen baduzu, esleitutako DOIak ez dira aldatuko. DOI "
+"konfigurazioa gorde ondoren, erabili botoi hau dauden DOI guztiak "
+"ezabatzeko, ezarpen berriak dauden objektuetan eragina izan dezan."
+
+msgid "doi.manager.settings.doiReassign.confirm"
+msgstr "Ziur zaude dauden DOI guztiak ezabatu nahi dituzula?"
+
+msgid "doi.manager.settings.doiAssignJournalWide"
+msgstr "Esleitu DOIak"
+
+msgid "doi.manager.settings.doiAssignJournalWide.description"
+msgstr ""
+"Esleitu DOIa DOIrik ez duten aldizkariko argitaratutako objektu guztiei. "
+"Ekintza hau ezin da erabili banakako atzizkien konfigurazioarekin erabili. "
+"Goiko DOI konfigurazioa aldatu baduzu, gorde aldaketak ekintza hau hasi "
+"aurretik. DOIak esleitzeak denbora asko iraun dezake, aldizkarian "
+"argitaratutako objektu-kopuruaren arabera."
+
+msgid "doi.manager.settings.doiAssignJournalWide.confirm"
+msgstr ""
+"Ziur zaude DOIak esleitu nahi dizkiezula DOIrik ez duten argitaratutako "
+"objektu guztiei?"
+
+msgid "doi.manager.settings.registrationAgency"
+msgstr "Erregistro-agentzia"
+
+msgid "doi.manager.settings.registrationAgency.description"
+msgstr ""
+"Mesedez, hautatu DOIak gordetzeko erabili nahi duzun erregistro-agentzia."
+
+msgid "doi.manager.settings.registrationAgency.none"
+msgstr "Bat ere ez"
+
+msgid "doi.editor.doi"
+msgstr "DOI"
+
+msgid "doi.editor.doi.description"
+msgstr "DOIak {$prefix} aurrizkiarekin hasi behar du."
+
+msgid "doi.editor.doi.assignDoi"
+msgstr "Esleitu"
+
+msgid "doi.editor.doiObjectTypeIssue"
+msgstr "zenbakia"
+
+msgid "doi.editor.doiObjectTypeSubmission"
+msgstr "artikulu"
+
+msgid "doi.editor.doiObjectTypeRepresentation"
+msgstr "galerada"
+
+msgid "doi.editor.customSuffixMissing"
+msgstr "Ezin da DOIa esleitu, atzizki pertsonalizatua falta delako."
+
+msgid "doi.editor.missingIssue"
+msgstr "Ezin duzu DOI bat sortu argitalpen hau zenbaki bati esleitu arte."
+
+msgid "doi.editor.missingParts"
+msgstr ""
+"Ezin duzu DOI bat sortu DOI ereduaren zati bati edo gehiagori datuak falta "
+"zaizkielako. Baliteke argitalpena zenbaki bati esleitu, argitaratzaile ID "
+"bat ezarri edo orrialde zenbakiak sartu behar izatea."
+
+msgid "doi.editor.patternNotResolved"
+msgstr "Ezin da DOIa esleitu, konpondu gabeko eredu bat duelako."
+
+msgid "doi.editor.canBeAssigned"
+msgstr ""
+"Ikusten duzuna DOIaren aurrebista bat da. Hautatu kontrol-laukia eta gorde "
+"formularioa DOIa esleitzeko."
+
+msgid "doi.editor.assigned"
+msgstr "DOIa {$pubObjectType} honi esleituta dago."
+
+msgid "doi.editor.doiSuffixCustomIdentifierNotUnique"
+msgstr ""
+"Emandako DOI atzizkia argitaratutako beste elementu batean erabiltzen da "
+"dagoeneko. Mesedez, sartu DOI atzizki bakarra elementu bakoitzerako."
+
+msgid "doi.editor.clearObjectsDoi"
+msgstr "Garbitu"
+
+msgid "doi.editor.clearObjectsDoi.confirm"
+msgstr "Ziur zaude lehendik dagoen DOIa ezabatu nahi duzula?"
+
+msgid "doi.editor.clearIssueObjectsDoi"
+msgstr "Garbitu zenbakiko objektuen DOIak"
+
+msgid "doi.editor.clearIssueObjectsDoi.confirm"
+msgstr ""
+"Ziur zaude lehendik dauden zenbakiaren objektuen DOIak ezabatu nahi dituzula?"
+
+msgid "doi.editor.clearIssueObjectsDoi.description"
+msgstr ""
+"Erabili aukera hau zenbaki honetarako programatuta dauden objektu (artikulu "
+"eta galerada) guztien DOIak garbitzeko."
+
+msgid "doi.editor.assignDoi"
+msgstr "Esleitu {$pubId} DOIa {$pubObjectType} honi"
+
+msgid "doi.editor.assignDoi.emptySuffix"
+msgstr "DOIa ezin da esleitu, atzizki pertsonalizatua falta delako."
+
+msgid "doi.editor.assignDoi.pattern"
+msgstr "Ezin da {$pubId} DOIa esleitu, konpondu gabeko eredu bat duelako."
+
+msgid "doi.editor.assignDoi.assigned"
+msgstr ""
+"{$pubId} DOIa esleitu da. DOIa editatzeko, bisitatu <a href=\""
+"{$doiManagementLink}\">DOI Kudeaketa orria</a>."
+
+msgid "doi.editor.assignDoi.toBeAssigned"
+msgstr "{$pubId} DOIa argitaratzean esleituko da."
+
+msgid "doi.editor.missingPrefix"
+msgstr "DOIa {$doiPrefix} balioarekin hasi behar da."
+
+msgid "doi.editor.preview.publication"
+msgstr "Argitalpen honen DOIa {$doi} izango da."
+
+msgid "doi.editor.preview.publication.none"
+msgstr "Argitalpen honi ez zaio DOIrik esleitu."
+
+msgid "doi.editor.preview.galleys"
+msgstr "Galerada: {$galleyLabel}"
+
+msgid "doi.editor.preview.objects"
+msgstr "Elementua"
+
+msgid "api.galley.403.publicationDidNotMatch"
+msgstr "Eskatu duzun galerada ez da argitalpen honen parte."
+
+msgid "api.galley.403.canEditPublishedDoi"
+msgstr ""
+"DOIak bakarrik edita daitezke argitalpen/galerada bat argitaratu ondoren"
+
+msgid "api.issue.400.invalidDoi"
+msgstr "Bidalitako DOIa ez da baliozkoa"
+
+msgid "api.issue.403.canEditPublishedDoi"
+msgstr "DOIak bakarrik edita daitezke argitalpen bat argitaratu ondoren"
+
+msgid "api.issue.404.issuesNotFound"
+msgstr "Eskatu dituzun zenbakiak ez dira aurkitu"
+
+msgid "doi.manager.submissionDois"
+msgstr "Artikuluen DOIak"
+
+msgid "doi.manager.issueDois"
+msgstr "Zenbakiaren DOIak"
+
+msgid "mailable.decision.initialDecline.notifyAuthor.description"
+msgstr ""
+"Mezu elektroniko honek egileari jakinarazten dio bere bidalketa baztertu "
+"egingo dela berrikuspen fasea hasi aurretik, bidalketak ez dituelako "
+"aldizkarian argitaratzeko baldintzak betetzen."
+
+msgid "manager.institutions.noContext"
+msgstr "Erakunde honen aldizkaria ezin izan da aurkitu."
+
+msgid "mailable.subscriptionNotify.name"
+msgstr "Harpidetza jakinarazpena"
+
+msgid "mailable.subscriptionNotify.description"
+msgstr ""
+"Mezu honek irakurle erregistratuari jakinarazten dio Kudeatzaileak "
+"harpidetza egin diola. Aldizkariaren URLa eta aldizkarian sartzeko "
+"argibideak ematen ditu."
+
+msgid "mailable.subscriptionExpiresSoon.name"
+msgstr "Harpidetza laster iraungiko da"
+
+msgid "mailable.subscriptionExpiresSoon.description"
+msgstr ""
+"Mezu honek harpidedunari jakinarazten dio harpidetza amaitzera doakiola. "
+"Aldizkariaren URLa eta aldizkarian sartzeko argibideak ematen ditu."
+
+msgid "mailable.subscriptionExpired.name"
+msgstr "Harpidetza iraungita"
+
+msgid "mailable.subscriptionExpired.description"
+msgstr ""
+"Mezu honek harpidedunari jakinarazten dio harpidetza amaitu zaiola. "
+"Aldizkariaren URLa eta aldizkarian sartzeko argibideak ematen ditu."
+
+msgid "mailable.subscriptionExpiredLast.name"
+msgstr "Iraungitako azken harpidetza"
+
+msgid "mailable.subscriptionExpiredLast.description"
+msgstr ""
+"Mezu honek harpidedunari jakinarazten dio harpidetza amaitu zaiola. "
+"Aldizkariaren URLa eta aldizkarian sartzeko argibideak ematen ditu."
+
+msgid "mailable.subscriptionPurchaseIndividual.name"
+msgstr "Erosi banakako harpidetza"
+
+msgid "mailable.subscriptionPurchaseIndividual.description"
+msgstr ""
+"Mezu honek Harpidetza-kudeatzaileari jakinarazten dio harpidetza indibidual "
+"bat erosi dutela linean. Harpidetza-datuen laburpena ematen du eta erositako "
+"harpidetzara bizkor joateko esteka."
+
+msgid "mailable.subscriptionPurchaseInstitutional.name"
+msgstr "Erosi harpidetza instituzionala"
+
+msgid "mailable.subscriptionPurchaseInstitutional.description"
+msgstr ""
+"Mezu honek Harpidetza-kudeatzaileari jakinarazten dio erakunde-harpidetza "
+"bat erosi dutela linean. Harpidetza-datuen laburpena ematen du eta erositako "
+"harpidetzara bizkor joateko esteka."
+
+msgid "mailable.subscriptionRenewIndividual.name"
+msgstr "Berritu banakako harpidetza"
+
+msgid "mailable.subscriptionRenewIndividual.description"
+msgstr ""
+"Mezu honek Harpidetza-kudeatzaileari jakinarazten dio harpidetza indibidual "
+"bat berritu dutela linean. Harpidetza-datuen laburpena ematen du eta "
+"berritutako harpidetzara bizkor joateko esteka."
+
+msgid "mailable.subscriptionRenewInstitutional.name"
+msgstr "Berritu harpidetza instituzionala"
+
+msgid "mailable.subscriptionRenewInstitutional.description"
+msgstr ""
+"Mezu honek Harpidetza-kudeatzaileari jakinarazten dio erakunde-harpidetza "
+"bat berritu dutela linean. Harpidetza-datuen laburpena ematen du eta "
+"berritutako harpidetzara bizkor joateko esteka."
+
+msgid "mailable.openAccessNotify.name"
+msgstr "Sarbide irekiaren jakinarazpena"
+
+msgid "mailable.openAccessNotify.description"
+msgstr ""
+"Mezu hau bidaltzen zaie zenbakia sarrera libreko egiten denean jakinarazpena "
+"jaso nahi dutela esan duten erabiltzaile erregistratuei."
+
+msgid "mailable.issuePublishNotify.name"
+msgstr "Zenbaki argitaratuaren jakinarazpena"
+
+msgid "mailable.issuePublishNotify.description"
+msgstr ""
+"Zenbaki berria argitaratzen denean, mezu elektroniko hau automatikoki "
+"bidaltzen zaie erregistratutako erabiltzaileei."
+
+msgid "manager.manageEmails.description"
+msgstr "Editatu aldizkari honetatik bidalitako mezu elektronikoak."
+
+msgid "mailable.layoutComplete.name"
+msgstr "Galeradak osatuta"
+
+msgid "mailable.publicationVersionNotify.name"
+msgstr "Bertsio berria sortu da"
+
+msgid "mailable.publicationVersionNotify.description"
+msgstr ""
+"Mezu elektroniko honek automatikoki jakinarazten die esleitutako editoreei "
+"bidalketaren bertsio berri bat sortzen denean."
+
+msgid "mailable.submissionNeedsEditor.description"
+msgstr ""
+"Mezu elektroniko hau aldizkariaren kudeatzaileei bidaltzen zaie bidalketa "
+"berri bat egiten denean eta editorerik esleituta ez dagoenean."
+
+msgid "mailable.paymentRequest.name"
+msgstr "Ordainketa-eskaera"
+
+msgid "mailable.paymentRequest.description"
+msgstr ""
+"Mezu elektroniko automatiko hau egileari bidaltzen zaio argitalpen-tasa "
+"ordaintzeko eskatzeko, bere bidalketa onartzen denean."
+
+#~ msgid "manager.setup.metadata.coverage"
+#~ msgstr "Estaldura"
+
+#~ msgid "manager.setup.metadata.coverage.description"
+#~ msgstr ""
+#~ "Kokapen geo-espaziala, garai kronologikoa edo historikoa, eta/edo "
+#~ "ikerketaren ezaugarriak."
+
+#~ msgid "manager.setup.customTags"
+#~ msgstr "Etiketa pertsonalizatuak"
+
+#~ msgid "manager.setup.customTagsDescription"
+#~ msgstr ""
+#~ "Orri guztietako goiburuan sartzeko HTML goiburu-etiketa pertsonalizatuak "
+#~ "(adib., META etiketak)."
+
+#~ msgid "manager.setup.enablePublicIssueId"
+#~ msgstr ""
+#~ "Identifikatzaile pertsonalizatuak erabiliko dira zenbakiak "
+#~ "identifikatzeko."
+
+#~ msgid "manager.setup.publishingMode"
+#~ msgstr "Aldizkariaren edukirako sarbidea"
+
+#~ msgid "manager.statistics.statistics.registeredUsers"
+#~ msgstr "Erabiltzaile erregistratuak"
+
+#~ msgid "manager.subscriptionPolicies.expiryReminderAfterWeeks1"
+#~ msgstr "Harpidetza amaitu eta handik"
+
+#~ msgid "manager.subscriptionPolicies.expiryReminderAfterWeeks2"
+#~ msgstr "astera bidali mezua harpidedunei."
+
+#~ msgid "manager.subscriptionPolicies.expiryReminderBeforeWeeks1"
+#~ msgstr "Harpidetza amaitu baino"
+
+#~ msgid "manager.subscriptionPolicies.expiryReminderBeforeWeeks2"
+#~ msgstr "aste lehenago bidali mezua harpidedunei."
+
+msgid "manager.setup.contextSummary.description"
+msgstr ""
+"Eman zure aldizkariaren deskribapen labur bat, bere edukia eta helburua "
+"hobeto ulertzeko."
+
+msgid "plugins.importexport.common.error.issueGalleyFileMissing"
+msgstr ""
+"Ezin izan da {$id} zenbakiaren galerada esportatu, bere fitxategia ez da "
+"aurkitu \"{$path}\" helbidean."
+
+msgid "plugins.importexport.common.error.issueCoverImageMissing"
+msgstr ""
+"{$id} zenbakiaren azaleko irudia ez da esportatu, bere fitxategia ez da "
+"aurkitu \"{$path}\" helbidean."
+
+msgid "plugins.importexport.common.error.import.issueGalleyFileMissing"
+msgstr "Ezin izan da zenbakiaren galerada inportatu, bere fitxategia falta da."
+
+msgid "emailTemplate.variable.issue.issueTableOfContents"
+msgstr "Zenbakiaren aurkibidea, hala nola lotutako bidalketa guztien zerrenda."

@@ -1,0 +1,15 @@
+./files/
+./lib/pkp/js/lib
+./lib/pkp/lib
+./lib/pkp/tests
+./lib/pkp/tests/classes/xslt
+./lib/pkp/tests/phpunit.xml
+./lib/ui-library/node_modules
+./node_modules
+./phpdoc.dist.xml
+./plugins/generic/citationStyleLanguage/lib/vendor
+./plugins/generic/jatsTemplate/tests
+./plugins/importexport/users/sample.xml
+./plugins/oaiMetadataFormats/dc/tests/expectedResult.xml
+./plugins/paymethod/paypal/vendor
+./tests/

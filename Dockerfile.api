@@ -1,0 +1,18 @@
+FROM python:3.12-slim
+
+WORKDIR /app
+
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY backend ./backend
+
+ENV OJS_SOURCE_PATH=/ojs
+ENV ENABLE_SCHEDULER=true
+ENV SCAN_INTERVAL_HOURS=6
+EXPOSE 8000
+
+# Create reports directory
+RUN mkdir -p /app/reports
+
+CMD ["uvicorn", "backend.main:app", "--host", "0.0.0.0", "--port", "8000"]

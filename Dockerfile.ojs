@@ -1,0 +1,7 @@
+FROM pkpofficial/ojs:3_4_0-8
+
+COPY docker/ojs-pre-start /usr/local/bin/ojs-pre-start
+COPY docker/ojs-start /usr/local/bin/ojs-start
+COPY ojs/ojs-main/plugins/generic/scannerTrigger /var/www/html/plugins/generic/scannerTrigger
+
+RUN chmod +x /usr/local/bin/ojs-pre-start /usr/local/bin/ojs-start

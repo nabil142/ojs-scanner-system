@@ -1,0 +1,13 @@
+#!/bin/sh
+
+ojs-pre-start
+
+/usr/sbin/crond -f &
+echo "[OJS Start] Started cron"
+
+if [ "${OJS_CLI_INSTALL:-0}" = "1" ] &&
+    grep -q 'installed = Off' "$OJS_CONF"; then
+    ojs-cli-install
+fi
+
+/usr/sbin/httpd -f /etc/apache2/httpd.conf -DFOREGROUND

@@ -1,0 +1,184 @@
+# Mahmut  VURAL <mahmut.vural@outlook.com>, 2024, 2025, 2026.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-01-26 11:35+0000\n"
+"Last-Translator: Mahmut  VURAL <mahmut.vural@outlook.com>\n"
+"Language-Team: Kyrgyz <http://translate.pkp.sfu.ca/projects/ojs/default/ky/>"
+"\n"
+"Language: ky\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.18.2\n"
+
+msgid "section.default.title"
+msgstr "Макалалар"
+
+msgid "section.default.policy"
+msgstr "Бөлүмдүн демейки саясаты"
+
+msgid "default.contextSettings.checklist"
+msgstr ""
+"<p>Бардык тапшырмалар төмөнкү талаптарга жооп бериши керек.</p><ul><li>Бул "
+"тапшырма <a href=\"{$submissionGuidelinesUrl}\">Автор көрсөтмөлөрүндө</a> "
+"белгиленген талаптарга жооп берет.</li><li>Бул тапшырма мурда жарыяланган "
+"эмес жана башка журналда каралууда эмес.</li><li>Бардык шилтемелер тактык "
+"жана толуктук үчүн текшерилген.</li><li>Бардык таблицалар жана сүрөттөр "
+"номерленген жана белгиленген.</li><li>Бул тапшырма менен берилген бардык "
+"сүрөттөрдү, маалымат топтомдорун жана башка материалдарды жарыялоо үчүн "
+"уруксат алынган.</li></ul>"
+
+msgid "default.contextSettings.openAccessPolicy"
+msgstr ""
+"Бул журнал мазмунуна дароо ачык жеткиликтүүлүк берет, анткени изилдөөлөрдү "
+"коомчулукка эркин жеткиликтүү кылуу глобалдык билим алмашууну колдойт."
+
+msgid "section.default.abbrev"
+msgstr "МАК"
+
+msgid "default.contextSettings.forLibrarians"
+msgstr ""
+"Изилдөө китепканачыларын бул журналды китепкананын электрондук журнал "
+"тизмесине кошууга чакырабыз. Ошондой эле бул журналдын ачык булактуу "
+"жарыялоо системасы китепканаларга окутуучулар үчүн журналдарды жайгаштырып "
+"колдонууга ылайыктуу экенин белгилей кетүү керек (караңыз <a href=\"https"
+"://pkp.sfu.ca/ojs\">Open Journal Systems</a>)."
+
+msgid "default.contextSettings.clockssLicense"
+msgstr ""
+"Бул журнал катышкан китепканалар арасында бөлүштүрүлгөн архив системасын "
+"түзүү үчүн CLOCKSS системасын колдонуп, аларга журналдын туруктуу архивдерин "
+"түзүүгө уруксат берет. <a href=\"https://clockss.org\">Толук маалымат...</a>"
+
+msgid "default.groups.name.guestEditor"
+msgstr "Конок редактор"
+
+msgid "default.groups.plural.guestEditor"
+msgstr "Конок редакторлор"
+
+msgid "default.groups.name.sectionEditor"
+msgstr "Бөлүм редактору"
+
+msgid "default.groups.plural.sectionEditor"
+msgstr "Бөлүм редакторлору"
+
+msgid "default.groups.abbrev.sectionEditor"
+msgstr "БР"
+
+msgid "default.groups.name.subscriptionManager"
+msgstr "Жазылуу менеджери"
+
+msgid "default.groups.plural.subscriptionManager"
+msgstr "Жазылуу менеджерлери"
+
+msgid "default.groups.abbrev.subscriptionManager"
+msgstr "ЖМе"
+
+msgid "default.genres.researchInstrument"
+msgstr "Изилдөө аспабы"
+
+msgid "default.genres.researchResults"
+msgstr "Изилдөө натыйжалары"
+
+msgid "default.genres.transcripts"
+msgstr "Транскрипттер"
+
+msgid "default.genres.dataAnalysis"
+msgstr "Маалыматтарды талдоо"
+
+msgid "default.genres.dataSet"
+msgstr "Маалымат топтому"
+
+msgid "default.genres.sourceTexts"
+msgstr "Баштапкы тексттер"
+
+msgid "default.groups.name.externalReviewer"
+msgstr "Рецензент"
+
+msgid "default.groups.plural.externalReviewer"
+msgstr "Рецензенттер"
+
+msgid "default.groups.abbrev.externalReviewer"
+msgstr "Р"
+
+msgid "default.groups.name.manager"
+msgstr "Журнал менеджери"
+
+msgid "default.groups.plural.manager"
+msgstr "Журнал менеджерлери"
+
+msgid "default.groups.name.editor"
+msgstr "Журнал редактору"
+
+msgid "default.groups.plural.editor"
+msgstr "Журнал редакторлору"
+
+msgid "default.groups.abbrev.editor"
+msgstr "ЖР"
+
+msgid "default.genres.researchMaterials"
+msgstr "Изилдөө материалдары"
+
+msgid "default.genres.article"
+msgstr "Макала тексти"
+
+msgid "default.contextSettings.forReaders"
+msgstr ""
+"Окурмандарды бул журнал үчүн жарыялоо билдирүү кызматына катталууга "
+"чакырабыз. Журналдын башкы бетинин үстүндөгү <a href=\""
+"{$indexUrl}/{$contextPath}/user/register\">Катталуу</a> шилтемесин "
+"колдонуңуз. Бул катталуу ар бир жаңы чыгарылыш үчүн мазмун тизмесин "
+"электрондук почта аркылуу алууга мүмкүндүк берет. Бул тизме журналга "
+"окурмандардын деңгээлин көрсөтүүгө да жардам берет. Журналдын <a href=\""
+"{$indexUrl}/{$contextPath}/about/submissions#privacyStatement\">Купуялык "
+"билдирүүсүн</a> караңыз, анда окурмандардын аты жана электрондук почта "
+"дареги башка максаттар үчүн колдонулбай турганы кепилденет."
+
+msgid "default.contextSettings.lockssLicense"
+msgstr ""
+"Бул журнал катышкан китепканалар арасында бөлүштүрүлгөн архив системасын "
+"түзүү үчүн LOCKSS системасын колдонуп, аларга журналдын туруктуу архивдерин "
+"түзүүгө уруксат берет. <a href=\"https://www.lockss.org\">Толук "
+"маалымат...</a>"
+
+msgid "default.contextSettings.authorGuidelines"
+msgstr ""
+"<p>Авторлор бул журналга тапшырма берүүгө чакырылат. Бардык тапшырмалар "
+"редактор тарабынан журналдын максаттарына жана көлөмүнө туура келерин "
+"аныктоо үчүн бааланат. Жакшы ылайык деп эсептелгендер рецензенттерге "
+"жөнөтүлөт жана андан кийин кабыл алынары же четке кагылары чечилет.</"
+"p><p>Тапшыруу алдында авторлор тапшырмага кошулган бардык материалдарды ("
+"сүрөттөр, документтер, маалымат топтомдору) жарыялоо үчүн уруксат алууга "
+"жооптуу. Тапшырууда көрсөтүлгөн бардык авторлор автор катары көрсөтүлүүгө "
+"макул болушу керек. Зарыл болсо, изилдөө тиешелүү өлкөнүн мыйзам талаптарына "
+"ылайык этика комитети тарабынан бекитилиши керек.</p><p>Эгер тапшырма "
+"минималдуу сапат стандарттарына жооп бербесе, редактор аны дароо четке "
+"кагышы мүмкүн. Тапшыруудан мурун изилдөө дизайны жана аргументи туура "
+"түзүлүп, так баяндалганына ишениңиз. Аталыш кыскача болушу керек жана "
+"аннотация өз алдынча түшүнүктүү болушу зарыл. Бул рецензенттердин макаланы "
+"кароого макул болуу мүмкүнчүлүгүн жогорулатат. Тапшырууңуз бул стандартка "
+"жооп берет деп ишенсеңиз, төмөнкү текшерүү тизмесин аткарып даярдаңыз.</p>"
+
+msgid "default.contextSettings.forAuthors"
+msgstr ""
+"Бул журналга тапшырма берүүгө кызыгасызбы? Журналдын бөлүм саясатын көрүү "
+"үчүн <a href=\"{$indexUrl}/{$contextPath}/about\">Журнал жөнүндө</a> бетин "
+"жана <a href=\"{$indexUrl}/{$contextPath}/about/submissions#"
+"authorGuidelines\">Автор көрсөтмөлөрүн</a> карап чыгууну сунуштайбыз. "
+"Авторлор тапшырма берүүдөн мурун журналга <a href=\""
+"{$indexUrl}/{$contextPath}/user/register\">катталышы</a> керек, же мурунтан "
+"катталган болсо, жөн гана <a href=\"{$indexUrl}/index/login\">кирүү</a> "
+"баскычын колдонуп беш кадамдык процессти баштаса болот."
+
+msgid "default.contextSettings.privacyStatement"
+msgstr ""
+"<p>Бул журнал сайтында киргизилген ысымдар жана электрондук почта даректери "
+"журналдын көрсөтүлгөн максаттары үчүн гана колдонулат жана башка максаттарга "
+"же тараптарга берилбейт.</p>"
+
+msgid "default.groups.abbrev.manager"
+msgstr "ЖМ"
+
+msgid "default.groups.abbrev.guestEditor"
+msgstr "КР"

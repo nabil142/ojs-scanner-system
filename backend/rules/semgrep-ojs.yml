@@ -1,0 +1,62 @@
+rules:
+  - id: ojs.php.eval-dynamic-code
+    languages:
+      - php
+    severity: ERROR
+    message: Dynamic PHP code execution detected through eval().
+    pattern: eval(...);
+    metadata:
+      vulnerability_type: Dynamic Code Execution
+      owasp: A03:2021 - Injection
+      recommendation: Hindari eval(). Gunakan kontrol alur eksplisit, whitelist nilai yang diperbolehkan, atau API OJS/PKP yang aman.
+
+  - id: ojs.php.command-execution
+    languages:
+      - php
+    severity: ERROR
+    message: Potential operating system command execution detected.
+    pattern-either:
+      - pattern: exec(...);
+      - pattern: shell_exec(...);
+      - pattern: system(...);
+      - pattern: passthru(...);
+      - pattern: proc_open(...);
+      - pattern: popen(...);
+    metadata:
+      vulnerability_type: Command Injection Risk
+      owasp: A03:2021 - Injection
+      recommendation: Hindari eksekusi command shell. Jika benar-benar diperlukan, gunakan whitelist command, escape argumen, dan batasi input user.
+
+  - id: ojs.php.unsafe-unserialize
+    languages:
+      - php
+    severity: WARNING
+    message: unserialize() can be unsafe when processing untrusted input.
+    pattern: unserialize(...);
+    metadata:
+      vulnerability_type: Unsafe Deserialization
+      owasp: A08:2021 - Software and Data Integrity Failures
+      recommendation: Hindari unserialize() untuk data tidak tepercaya. Gunakan JSON atau validasi kelas yang diperbolehkan dengan allowed_classes.
+
+  - id: ojs.php.assert-usage
+    languages:
+      - php
+    severity: WARNING
+    message: assert() usage detected. Review carefully because assertions can become risky when dynamic expressions are used.
+    pattern: assert(...);
+    metadata:
+      vulnerability_type: Risky PHP Function Usage
+      owasp: A03:2021 - Injection
+      recommendation: Pastikan assert() tidak menerima ekspresi dinamis dari input user. Untuk production, gunakan validasi eksplisit dan error handling biasa.
+
+  - id: ojs.php.request-superglobal-in-sql-string
+    languages:
+      - php
+    severity: ERROR
+    message: SQL string appears to use request superglobal input directly.
+    patterns:
+      - pattern-regex: (?i)(SELECT|INSERT|UPDATE|DELETE).*(\$_GET|\$_POST|\$_REQUEST|\$_COOKIE)
+    metadata:
+      vulnerability_type: Potential SQL Injection Pattern
+      owasp: A03:2021 - Injection
+      recommendation: Jangan gabungkan input request langsung ke query SQL. Gunakan prepared statement, DAO OJS/PKP, dan validasi input.

@@ -1,0 +1,269 @@
+# Ricardo Gómez-López <ricardogomezlopez@gmail.com>, 2023, 2025.
+# Informatikaria <informatikaria@ueu.eus>, 2024.
+# Oihan Odriozola <oodriozola@euskaltzaindia.eus>, 2025.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T10:49:20+00:00\n"
+"PO-Revision-Date: 2025-10-31 14:03+0000\n"
+"Last-Translator: Oihan Odriozola <oodriozola@euskaltzaindia.eus>\n"
+"Language-Team: Basque <http://translate.pkp.sfu.ca/projects/ojs/admin/eu/>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.18.2\n"
+
+msgid "admin.hostedContexts"
+msgstr "Aldizkari ostatatuak"
+
+msgid "admin.settings.redirect"
+msgstr "Aldizkarira birbideratu"
+
+msgid "admin.settings.redirectInstructions"
+msgstr ""
+"Gune nagusira egindako eskaerak aldizkari honetara birbideratuko dira. "
+"Praktikoa da guneak aldizkari bakarra ostatatzen badu, esate baterako."
+
+msgid "admin.languages.confirmDisable"
+msgstr ""
+"Ziur zaude hizkuntza hau desgaitu nahi duzula? Honek hizkuntza hori "
+"darabilten aldizkariei eragin diezaieke."
+
+msgid "admin.languages.primaryLocaleInstructions"
+msgstr ""
+"Hau izango da gunearen eta bertan ostatatutako aldizkarien hizkuntza "
+"lehenetsia."
+
+msgid "admin.languages.supportedLocalesInstructions"
+msgstr ""
+"Hautatu gunean onartu nahi dituzun hizkuntza-pakete guztiak. Hautatutako "
+"hizkuntza-paketeak erabilgarri egongo dira gunean ostatatutako aldizkari "
+"guztietan erabiltzeko eta guneko orri guztietan azalduko dira, hizkuntza "
+"aukeratzeko menuan (nahi izanez gero, orri batzuetatik ken daiteke). "
+"Hizkuntza bakarra hautatzen bada, hizkuntza aldatzeko menua ez da azalduko "
+"eta hizkuntza-ezarpen hedatuak ere ez dira erabilgarri egongo aldizkarietan."
+
+msgid "admin.locale.maybeIncomplete"
+msgstr "Markatutako localeak osatu gabe egon daitezke."
+
+msgid "admin.languages.confirmUninstall"
+msgstr ""
+"Ziur zaude hizkuntza hau desinstalatu nahi duzula? Eragina izango du "
+"hizkuntza hau erabiltzen duten aldizkari ostatatu guztietan."
+
+msgid "admin.languages.installNewLocalesInstructions"
+msgstr ""
+"Hauta itzazu locale osagarriak sistema horretarako laguntzailea "
+"instalatzeko. Localeak aldizkari ostalariak erabili baino lehen instalatu "
+"behar dira. Ikusi OJS-ren dokumentazioa hizkuntza berrientzako laguntzaileak "
+"gehitzeari buruzko informazioa eskuratzeko."
+
+msgid "admin.systemVersion"
+msgstr "OJS bertsioa"
+
+msgid "admin.systemConfiguration"
+msgstr "OJS konfigurazioa"
+
+msgid "admin.systemConfigurationDescription"
+msgstr "<tt>config.inc.php</tt> OJS konfigurazio-ezarpenak."
+
+msgid "admin.journals.createInstructions"
+msgstr ""
+"Aldizkari honen kudeatzaile gisa emango duzu izena automatikoki. Aldizkari "
+"berria sortu ondoren, bertara kudeatzaile gisa sartu haren ezarpenarekin eta "
+"erabiltzailearen izen-ematearekin jarraitzeko."
+
+msgid "admin.journals.journalSettings"
+msgstr "Aldizkariaren ezarpenak"
+
+msgid "admin.journals.noneCreated"
+msgstr "Ez da aldizkaririk sortu."
+
+msgid "admin.contexts.create"
+msgstr "Sortu aldizkaria"
+
+msgid "admin.journals.urlWillBe"
+msgstr "Aldizkariaren URLa {$sampleUrl} izango da."
+
+msgid "admin.contexts.form.titleRequired"
+msgstr "Izenburu bat behar da."
+
+msgid "admin.contexts.form.pathRequired"
+msgstr "Bidea zehaztu behar da."
+
+msgid "admin.contexts.form.pathAlphaNumeric"
+msgstr ""
+"Bide-izenean alfazenbakizko karaktereak, azpimarra eta marratxoak bakarrik "
+"onartzen dira, eta lehen karakterea eta azkena alfazenbakizkoak izan behar "
+"dira."
+
+msgid "admin.contexts.form.pathExists"
+msgstr "Hautatutako bidea beste aldizkari batek erabiltzen du."
+
+msgid "admin.contexts.form.primaryLocaleNotSupported"
+msgstr ""
+"Eskualde-ezarpen nagusiak aldizkariak onartzen dituen eskualde-ezarpenetako "
+"bat izan behar du."
+
+msgid "admin.journals.enableJournalInstructions"
+msgstr "Gaitu aldizkari hau publikoki agertzeko gunean"
+
+msgid "admin.contexts.contextDescription"
+msgstr "Aldizkariaren azalpena"
+
+msgid "admin.journal.pathImportInstructions"
+msgstr "Lehendik dagoen aldizkariaren kokalekua edo berria (adib., \"ojs\")."
+
+msgid "admin.journals.importSubscriptions"
+msgstr "Inportatu harpidetzak"
+
+msgid "admin.journals.transcode"
+msgstr "Bihurtu artikuluen metadatuak ISO8859-1etik"
+
+msgid "admin.journals.redirect"
+msgstr "Sortu kodea OJS1 URLak OJS 2 URLetara mapatzeko"
+
+msgid "admin.journals.form.importPathRequired"
+msgstr "Inportatzeko bidea zehaztu behar da."
+
+msgid "admin.journals.importErrors"
+msgstr "Inportazioak huts egin du"
+
+msgid "admin.mergeUsers"
+msgstr "Batu erabiltzaileak"
+
+msgid "admin.mergeUsers.mergeUser"
+msgstr "Batu erabiltzailea"
+
+msgid "admin.mergeUsers.into.description"
+msgstr ""
+"Hautatu erabiltzaile bat lehengo erabiltzailearen egiletasuna, edizio-"
+"esleipenak, etab. egozteko."
+
+msgid "admin.mergeUsers.from.description"
+msgstr ""
+"Hautatu erabiltzaile bat beste erabiltzaile-kontu batekin batzeko (adib., bi "
+"kontu dituen erabiltzaile bat denean). Lehenengo hautatutako kontua ezabatu "
+"egingo da, eta dituen bidalketak, esleipenak, etab. bigarren kontuari "
+"egotziko zaizkio."
+
+msgid "admin.mergeUsers.allUsers"
+msgstr "Erregistratutako erabiltzaile guztiak"
+
+msgid "admin.mergeUsers.confirm"
+msgstr ""
+"Ziur zaude \"{$oldUsername}\" erabiltzaile-izena duen kontua ezabatu eta "
+"\"{$newUsername}\" erabiltzaile-izena duen kontuarekin batu nahi duzula? "
+"\"{$oldUsername}\" kontua galdu egingo da. Ekintza hau ezingo da desegin."
+
+msgid "admin.mergeUsers.noneEnrolled"
+msgstr "Erregistratutako erabiltzailerik ez."
+
+msgid "admin.scheduledTask.subscriptionExpiryReminder"
+msgstr "Harpidetza iraungitze abisua"
+
+msgid "admin.scheduledTask.openAccessNotification"
+msgstr "Sarbide irekiari buruzko jakinarazpena"
+
+msgid "admin.scheduledTask.reviewReminder"
+msgstr "Ebaluazioaren ohartarazpena"
+
+msgid "admin.job.processLogFile.invalidLogEntry.issueId"
+msgstr "Zenbakiaren IDa ez da zenbaki osoa."
+
+msgid "admin.job.processLogFile.invalidLogEntry.issueGalleyId"
+msgstr "Zenbakiaren galeradaren IDa ez da zenbaki osoa."
+
+msgid ""
+"admin.scheduledTask.usageStatsLoader.invalidLogEntry.issueAssocTypeNoMatch"
+msgstr "Zenbakiaren IDa ez dator bat assoc IDarekin."
+
+msgid "admin.settings.enableBulkEmails.description"
+msgstr ""
+"Hautatu mezu elektroniko masiboak bidaltzeko baimena izan behar duten "
+"ostatatutako aldizkariak. Funtzio hau gaituta dagoenean, aldizkariaren "
+"kudeatzaileak mezu elektroniko bat bidali ahal izango die bere aldizkarian "
+"erregistratutako erabiltzaile guztiei.<br><br>Eskatu gabeko mezu "
+"elektronikoak bidaltzeko funtzio hau oker erabiltzeak spam-aren aurkako "
+"legeak urra ditzake jurisdikzio batzuetan, eta zure zerbitzariaren mezu "
+"elektronikoak spam gisa blokeatzea eragin dezake. Bilatu aholku teknikoa "
+"funtzio hau gaitu aurretik, eta kontuan hartu aldizkarien kudeatzaileekin "
+"kontsultatzea, behar bezala erabiltzen dela ziurtatzeko.<br><br>Ezaugarri "
+"honen murrizketa gehiago aktiba daitezke aldizkari bakoitzerako, <a href=\"{$"
+"iken ContextsUrl}\">Ostatatutako aldizkarien</a> zerrendan doikuntzen "
+"laguntzailea bisitatuz."
+
+msgid "admin.settings.disableBulkEmailRoles.description"
+msgstr ""
+"Aldizkariaren kudeatzaileak ezin izango du mezu elektronikorik bidali behean "
+"hautatutako roletara. Erabili ezarpen hau posta elektroniko bidezko "
+"jakinarazpenen funtzioaren gehiegizko erabilera mugatzeko. Adibidez, "
+"seguruagoa izan daiteke mezu elektroniko horiek jasotzeko baimenik eman ez "
+"duten irakurleei, autoreei edo erabiltzaile-talde handiei mezu elektroniko "
+"masiboak desgaitzea.<br><br>Mezu elektroniko masiboen funtzioa guztiz "
+"desgaitu daiteke aldizkari honetarako <a href=\"{$siteSettingsUrl}\">Admin > "
+"Gunearen ezarpenak</a> atalean."
+
+msgid "admin.settings.disableBulkEmailRoles.contextDisabled"
+msgstr ""
+"Posta elektroniko masiboaren funtzioa desgaitu da aldizkari honetarako. "
+"Gaitu funtzio hau <a href=\"{$siteSettingsUrl}\">Admin > Gunearen ezarpenak</"
+"a> atalean."
+
+msgid "admin.siteManagement.description"
+msgstr ""
+"Gehitu, editatu edo kendu aldizkariak gune honetatik eta kudeatu gune osoko "
+"ezarpenak."
+
+msgid "admin.settings.statistics.geo.description"
+msgstr ""
+"Hautatu gune honetako aldizkariek bil ditzaketen erabilera geografikoaren "
+"estatistika-motak. Estatistika geografiko zehatzagoek zure datu-basearen "
+"tamaina nabarmen handitu dezakete eta, kasu bakan batzuetan, zure bisitarien "
+"anonimotasuna kaltetu dezakete. Aldizkari bakoitzak modu desberdinean "
+"konfigura dezake ezarpen hori, baina aldizkari batek ezin ditu inoiz bildu "
+"hemen konfiguratzen dena baino erregistro zehatzagoak. Adibidez, guneak "
+"herrialdea eta eskualdea bakarrik onartzen baditu, aldizkariak herrialdea "
+"eta eskualdea edo herrialdea bakarrik hauta dezake. Aldizkariak ezingo du "
+"herrialde, eskualde eta hiriaren jarraipena egin."
+
+msgid "admin.settings.statistics.institutions.description"
+msgstr ""
+"Gaitu erakunde-estatistikak gune honetako aldizkariek erakundearen araberako "
+"erabilera-estatistikak jaso ahal izatea nahi baduzu. Aldizkariek erakundea "
+"eta bere IP barrutiak gehitu beharko dituzte ezaugarri hau erabili ahal "
+"izateko. Erakunde-estatistikak gaitzeak zure datu-basearen tamaina nabarmen "
+"handitu dezake."
+
+msgid "admin.settings.statistics.sushi.public.description"
+msgstr ""
+"SUSHI APIaren amaiera-puntuak gune honetako aldizkari guztientzat publikoki "
+"eskuragarri jarri ala ez. API publikoa gaitzen baduzu, aldizkari bakoitzak "
+"ezarpen hau gainidatzi dezake bere estatistikak pribatuak izan daitezen. "
+"Hala ere, API publikoa desgaitzen baduzu, aldizkariek ezin izango dute beren "
+"APIa publiko egin."
+
+#~ msgid "admin.contexts.confirmDelete"
+#~ msgstr ""
+#~ "Ziur zaude betiko ezabatu nahi dituzula aldizkari hau eta bere eduki osoa?"
+
+#~ msgid "admin.contexts.form.edit.success"
+#~ msgstr "{$name} ondo editatu egin da."
+
+#~ msgid "admin.contexts.form.create.success"
+#~ msgstr "{$name} ondo sortu egin da."
+
+#~ msgid "admin.settings.info.success"
+#~ msgstr "Guneko informazioa ondo eguneratu egin da."
+
+#~ msgid "admin.settings.config.success"
+#~ msgstr "Konfigurazioa ondo eguneratu egin da."
+
+#~ msgid "admin.settings.appearance.success"
+#~ msgstr "Itxura konfigurazioa ondo eguneratu egin da."
+
+msgid "admin.settings.statistics.sushiPlatform.isSiteSushiPlatform"
+msgstr "Erabili gune hau aldizkari guztien plataforma gisa."
