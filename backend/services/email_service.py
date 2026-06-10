@@ -11,6 +11,109 @@ from email.mime.application import MIMEApplication
 logger = logging.getLogger(__name__)
 
 
+import base64
+import requests
+
+def send_email_via_resend(
+    api_key: str,
+    recipient_email: str,
+    scan_id: int,
+    target: str,
+    html_report_path: str,
+    pdf_report_path: str | None,
+    vulnerability_count: int,
+    critical_count: int,
+    high_count: int,
+    medium_count: int,
+    low_count: int,
+    is_scheduled: bool,
+):
+    try:
+        logger.info(f"Sending email via Resend HTTPS API to {recipient_email}")
+        
+        # Build subject
+        scan_type = "SCHEDULED" if is_scheduled else "MANUAL"
+        subject = f"[{scan_type}] [C:{critical_count}][H:{high_count}][M:{medium_count}][L:{low_count}] OJS Security Report #{scan_id}"
+        
+        # Build HTML body
+        from datetime import datetime
+        from zoneinfo import ZoneInfo
+        now = datetime.now(ZoneInfo("Asia/Jakarta"))
+        scan_type_text = "Scheduled Scan" if is_scheduled else "Manual Scan"
+        
+        html_body = f"""
+        <html>
+        <body style="font-family:Arial,sans-serif;">
+        <h2>OJS Security Scan Notification (via Resend)</h2>
+        <p>Berikut hasil report keamanan OJS yang telah selesai dijalankan.</p>
+        <table cellpadding="6">
+        <tr><td><b>Jenis Scan</b></td><td>{scan_type_text}</td></tr>
+        <tr><td><b>Tanggal</b></td><td>{now.strftime("%d %B %Y")}</td></tr>
+        <tr><td><b>Waktu</b></td><td>{now.strftime("%H:%M:%S WIB")}</td></tr>
+        <tr><td><b>Target</b></td><td>{target}</td></tr>
+        </table>
+        <br>
+        <h3>Severity Summary</h3>
+        <ul>
+        <li>Critical : {critical_count}</li>
+        <li>High : {high_count}</li>
+        <li>Medium : {medium_count}</li>
+        <li>Low : {low_count}</li>
+        <li>Total : {vulnerability_count}</li>
+        </ul>
+        <p>Laporan lengkap tersedia pada lampiran.</p>
+        <p>Regards,<br>OJS Security Scanner</p>
+        </body>
+        </html>
+        """
+
+        headers = {
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json"
+        }
+        
+        payload = {
+            "from": "OJS Scanner <onboarding@resend.dev>",
+            "to": [recipient_email],
+            "subject": subject,
+            "html": html_body,
+            "attachments": []
+        }
+        
+        # Attach PDF
+        if pdf_report_path and Path(pdf_report_path).exists():
+            with open(pdf_report_path, "rb") as f:
+                pdf_data = f.read()
+                payload["attachments"].append({
+                    "content": base64.b64encode(pdf_data).decode("utf-8"),
+                    "filename": Path(pdf_report_path).name
+                })
+                logger.info(f"Resend attached PDF: {pdf_report_path}")
+
+        # Attach HTML
+        if html_report_path and Path(html_report_path).exists():
+            with open(html_report_path, "rb") as f:
+                html_data = f.read()
+                payload["attachments"].append({
+                    "content": base64.b64encode(html_data).decode("utf-8"),
+                    "filename": Path(html_report_path).name
+                })
+                logger.info(f"Resend attached HTML: {html_report_path}")
+
+        response = requests.post("https://api.resend.com/emails", json=payload, headers=headers, timeout=15)
+        
+        if response.status_code in (200, 201):
+            logger.info(f"Email report sent successfully via Resend to {recipient_email}")
+            return True
+        else:
+            logger.error(f"Resend API error: {response.status_code} - {response.text}")
+            return False
+            
+    except Exception as e:
+        logger.error(f"Failed to send email via Resend to {recipient_email}: {e}")
+        return False
+
+
 def send_report_email(
     recipient_email: str,
     scan_id: int,
@@ -27,6 +130,23 @@ def send_report_email(
     """
     Send scan report email.
     """
+
+    resend_api_key = os.environ.get("RESEND_API_KEY")
+    if resend_api_key:
+        return send_email_via_resend(
+            api_key=resend_api_key,
+            recipient_email=recipient_email,
+            scan_id=scan_id,
+            target=target,
+            html_report_path=html_report_path,
+            pdf_report_path=pdf_report_path,
+            vulnerability_count=vulnerability_count,
+            critical_count=critical_count,
+            high_count=high_count,
+            medium_count=medium_count,
+            low_count=low_count,
+            is_scheduled=is_scheduled,
+        )
 
     smtp_server = os.environ.get("SMTP_SERVER", "smtp.gmail.com")
     smtp_port = int(os.environ.get("SMTP_PORT", "587"))
