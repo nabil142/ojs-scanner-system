@@ -72,8 +72,12 @@ def send_email_via_resend(
             "Content-Type": "application/json"
         }
         
+        from_email = os.environ.get("SENDER_EMAIL")
+        if not from_email or "gmail.com" in from_email.lower() or "@" not in from_email:
+            from_email = "OJS Scanner <onboarding@resend.dev>"
+
         payload = {
-            "from": "OJS Scanner <onboarding@resend.dev>",
+            "from": from_email,
             "to": [recipient_email],
             "subject": subject,
             "html": html_body,
