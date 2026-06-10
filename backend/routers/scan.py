@@ -3,7 +3,7 @@ import json
 import os
 from typing import Optional
 
-from fastapi import APIRouter, Body, Depends, HTTPException
+from fastapi import APIRouter, Body, Depends, HTTPException, BackgroundTasks
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 from sqlalchemy.orm import Session
@@ -43,10 +43,69 @@ def _default_source_path():
     return os.environ.get("OJS_SOURCE_PATH", "ojs/ojs-main")
 
 
+def send_email_reports_task(
+    scan_record_id: int,
+    target: str,
+    html_report_path: str,
+    pdf_report_path: Optional[str],
+    vulnerabilities: list
+):
+    from backend.database import SessionLocal
+    db = SessionLocal()
+    try:
+        users = db.query(User).filter(
+            User.receive_reports == True,
+            User.email.isnot(None)
+        ).all()
+        if not users:
+            return
+
+        critical_count = sum(
+            1 for v in vulnerabilities
+            if str(v.get("severity", "")).lower() == "critical"
+        )
+        high_count = sum(
+            1 for v in vulnerabilities
+            if str(v.get("severity", "")).lower() == "high"
+        )
+        medium_count = sum(
+            1 for v in vulnerabilities
+            if str(v.get("severity", "")).lower() == "medium"
+        )
+        low_count = sum(
+            1 for v in vulnerabilities
+            if str(v.get("severity", "")).lower() == "low"
+        )
+
+        for user in users:
+            success = send_report_email(
+                recipient_email=user.email,
+                scan_id=scan_record_id,
+                target=target,
+                html_report_path=html_report_path,
+                pdf_report_path=pdf_report_path,
+                vulnerability_count=len(vulnerabilities),
+                critical_count=critical_count,
+                high_count=high_count,
+                medium_count=medium_count,
+                low_count=low_count,
+                is_scheduled=False,
+            )
+            if success:
+                print(f"Background email report sent to {user.email}")
+            else:
+                print(f"Failed sending background email to {user.email}")
+    except Exception as e:
+        print(f"Background email task error: {e}")
+    finally:
+        db.close()
+
+
 @router.post("/")
 def scan_target(
     payload: Optional[ScanRequest] = Body(None),
     db: Session = Depends(get_db),
+    background_tasks: BackgroundTasks = None
 ):
     source_path = ""
     target_label = ""
@@ -133,57 +192,16 @@ def scan_target(
     except Exception as e:
         print(f"Error generating HTML report: {e}")
 
-    # Send email notifications
-    try:
-        users = db.query(User).filter(
-            User.receive_reports == True,
-            User.email.isnot(None)
-        ).all()
-
-        critical_count = sum(
-            1 for v in vulnerabilities
-            if str(v.get("severity", "")).lower() == "critical"
+    # Send email notifications in background
+    if html_report_path and background_tasks:
+        background_tasks.add_task(
+            send_email_reports_task,
+            scan_record.id,
+            scan_record.target,
+            html_report_path,
+            str(pdf_report_path) if pdf_report_path else None,
+            vulnerabilities
         )
-
-        high_count = sum(
-            1 for v in vulnerabilities
-            if str(v.get("severity", "")).lower() == "high"
-        )
-
-        medium_count = sum(
-            1 for v in vulnerabilities
-            if str(v.get("severity", "")).lower() == "medium"
-        )
-
-        low_count = sum(
-            1 for v in vulnerabilities
-            if str(v.get("severity", "")).lower() == "low"
-        )
-
-        if html_report_path:
-            for user in users:
-                success = send_report_email(
-                    recipient_email=user.email,
-                    scan_id=scan_record.id,
-                    target=scan_record.target,
-                    html_report_path=html_report_path,
-                    pdf_report_path=str(pdf_report_path)
-                    if pdf_report_path
-                    else None,
-                    vulnerability_count=len(vulnerabilities),
-                    critical_count=critical_count,
-                    high_count=high_count,
-                    medium_count=medium_count,
-                    low_count=low_count,
-                )
-
-                if success:
-                    print(f"Email report sent to {user.email}")
-                else:
-                    print(f"Failed sending email to {user.email}")
-
-    except Exception as e:
-        print(f"Email notification error: {e}")
     
 
     return {
