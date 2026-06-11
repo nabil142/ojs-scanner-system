@@ -34,8 +34,8 @@ def env_file_path():
 load_env_file()
 
 
-DB_URL = "sqlite:///./ojs_scanner.db"
-SECRET_KEY = "secret123"
+DB_URL = os.environ.get("DB_URL") or os.environ.get("DATABASE_URL") or "sqlite:///./ojs_scanner.db"
+SECRET_KEY = os.environ.get("SECRET_KEY", "secret123")
 
 # Optional LLM reasoning.
 # Kosongkan agar scanner tetap memakai fallback lokal tanpa LLM.
@@ -49,6 +49,6 @@ SECRET_KEY = "secret123"
 #   $env:LLM_MODEL = "llama3.1"
 LLM_PROVIDER = os.environ.get("LLM_PROVIDER", "")
 LLM_API_KEY = os.environ.get("LLM_API_KEY") or os.environ.get("OPENAI_API_KEY", "")
-LLM_MODEL = os.environ.get("LLM_MODEL", "gpt-4o-mini")
+LLM_MODEL = os.environ.get("LLM_MODEL", "gemini-2.5-flash")
 LLM_BASE_URL = os.environ.get("LLM_BASE_URL", "")
 LLM_TIMEOUT = int(os.environ.get("LLM_TIMEOUT", "20"))
