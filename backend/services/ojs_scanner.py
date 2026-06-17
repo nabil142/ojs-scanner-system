@@ -571,12 +571,66 @@ def semgrep_engine_plugin(context):
     return findings
 
 
+def cve_version_check_plugin(context):
+    findings = []
+    version, version_file = _extract_ojs_version(context.root)
+    if not version:
+        return findings
+        
+    try:
+        parts = [int(p) for p in re.findall(r"\d+", version)]
+        if len(parts) >= 3:
+            major, minor, revision = parts[0], parts[1], parts[2]
+            build = parts[3] if len(parts) > 3 else 0
+            
+            # Check for versions prior to 3.3.0.14 (CVE-2023-24843)
+            if (major < 3) or (major == 3 and minor < 3) or (major == 3 and minor == 3 and revision == 0 and build < 14):
+                findings.append(_finding(
+                    "CVE-2023-24843: Arbitrary File Upload in Submission Component",
+                    "Critical",
+                    f"OJS versi {version} terdeteksi rentan terhadap CVE-2023-24843. Celah pada komponen unggah berkas (file upload) di proses submission memungkinkan pengguna terautentikasi untuk mengunggah file PHP berbahaya dan mengeksekusi kode secara acak di server.",
+                    "Perbarui OJS ke versi 3.3.0-14 atau versi yang lebih baru.",
+                    version_file,
+                    owasp="A06:2021-Vulnerable and Outdated Components",
+                    source="OJS Version CVE Analyzer"
+                ))
+                
+            # Check for versions prior to 3.3.0.10 (CVE-2022-28799)
+            if (major < 3) or (major == 3 and minor < 3) or (major == 3 and minor == 3 and revision == 0 and build < 10):
+                findings.append(_finding(
+                    "CVE-2022-28799: SQL Injection via Authentication Service",
+                    "High",
+                    f"OJS versi {version} terdeteksi rentan terhadap CVE-2022-28799. Kerentanan pada sistem manajemen database OJS memungkinkan penyerang terautentikasi dengan hak akses rendah untuk mengeksekusi perintah SQL berbahaya dan menaikkan hak akses (privilege escalation).",
+                    "Perbarui OJS ke versi 3.3.0-10 atau versi yang lebih baru.",
+                    version_file,
+                    owasp="A03:2021-Injection",
+                    source="OJS Version CVE Analyzer"
+                ))
+
+            # Check for versions prior to 3.3.0.8 (CVE-2021-38161)
+            if (major < 3) or (major == 3 and minor < 3) or (major == 3 and minor == 3 and revision == 0 and build < 8):
+                findings.append(_finding(
+                    "CVE-2021-38161: Arbitrary File Download / Path Traversal",
+                    "High",
+                    f"OJS versi {version} terdeteksi rentan terhadap CVE-2021-38161. Kurangnya validasi jalur direktori (path validation) pada fungsi pengunduhan file memungkinkan penyerang untuk membaca atau mengunduh file sistem sensitif dari server.",
+                    "Perbarui OJS ke versi 3.3.0-8 atau versi yang lebih baru.",
+                    version_file,
+                    owasp="A01:2021-Broken Access Control",
+                    source="OJS Version CVE Analyzer"
+                ))
+    except Exception as e:
+        logger.error(f"Error parsing version in CVE plugin: {e}")
+        
+    return findings
+
+
 BUILTIN_PLUGINS: list[SastPlugin] = [
     config_security_plugin,
     sensitive_file_plugin,
     risky_code_plugin,
     source_hygiene_plugin,
     semgrep_engine_plugin,
+    cve_version_check_plugin,
 ]
 
 

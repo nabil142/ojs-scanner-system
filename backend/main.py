@@ -40,6 +40,10 @@ def startup():
         start_scheduler(interval_hours=scan_interval_hours, source_path=ojs_source_path)
     else:
         logger.info("Scheduler is disabled")
+        
+    # Start trigger watcher for manual attack alerts via email
+    from backend.services.trigger_watcher import start_trigger_watcher
+    start_trigger_watcher()
 
 
 @app.on_event("shutdown")
@@ -47,6 +51,10 @@ def shutdown():
     from backend.services.scheduler_service import stop_scheduler
     logger.info("Shutting down scheduler")
     stop_scheduler()
+    
+    from backend.services.trigger_watcher import stop_trigger_watcher
+    logger.info("Shutting down trigger watcher")
+    stop_trigger_watcher()
 
 
 @app.get("/")
